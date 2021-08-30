@@ -1,0 +1,37 @@
+{
+	"name": "sharp-icons",
+	"displayName": "Sharp Icons",
+	"version": "0.0.1",
+	"publisher": "CiberTurtle",
+	"description": "Crisp, sharp icons for vscode",
+	"icon": "images/icon.png",
+	"repository": "https://github.com/CiberTurtle/Sharp-Icons",
+	"engines": {
+		"vscode": "^1.59.0"
+	},
+	"bugs": "https://github.com/CiberTurtle/Sharp-Icons/issues",
+	"homepage": "https://github.com/CiberTurtle/Sharp-Icons",
+	"preview": true,
+	"license": "MIT",
+	"keywords": [
+		"Icons",
+		"Sharp",
+		"Crisp"
+	],
+	"categories": [
+		"Themes"
+	],
+	"galleryBanner": {
+		"color": "#42A5F5",
+		"theme": "dark"
+	},
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "sharp-icons",
+				"label": "Sharp Icons",
+				"path": "./icon-theme.json"
+			}
+		]
+	}
+}

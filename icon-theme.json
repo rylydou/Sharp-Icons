@@ -1,0 +1,187 @@
+{
+	"hidesExplorerArrows": true,
+
+	"file": "_file",
+
+	"folder": "_folder",
+	"folderExpanded": "_folderExpanded",
+
+	"rootFolder": "_rootFolder",
+	"rootFolderExpanded": "_rootFolderExpanded",
+
+	"fileExtensions": {
+		"rtf": "_richtext",
+
+		"png": "_image",
+		"jpg": "_image",
+		"jpeg": "_image",
+		"ico": "_image",
+		"gif": "_image",
+		"psd": "_image",
+		"svg": "_svg",
+
+		"aac": "_audio",
+		"aiff": "_audio",
+		"alac": "_audio",
+		"flac": "_audio",
+		"m4a": "_audio",
+		"mp3": "_audio",
+		"ogg": "_audio",
+		"ogga": "_audio",
+		"mogg": "_audio",
+		"raw": "_audio",
+		"wav": "_audio",
+
+		"webm": "_video",
+		"mkv": "_video",
+		"flv": "_video",
+		"ogv": "_video",
+		"gifv": "_video",
+		"avi": "_video",
+		"mov": "_video",
+		"qt": "_video",
+		"mp4": "_video",
+		"m4v": "_video",
+
+		"blend": "_3d",
+		"block": "_3d",
+		"c4d": "_3d",
+		"stl": "_3d",
+		"obj": "_3d",
+		"fbx": "_3d",
+		"3ds": "_3d",
+		"x3d": "_3d",
+
+		"7z": "_zip",
+		"zip": "_zip",
+		"rar": "_zip",
+		"001": "_zip",
+		"cab": "_zip",
+		"iso": "_zip",
+		"xz": "_zip",
+		"txz": "_zip",
+		"lzma": "_zip",
+		"tar": "_zip",
+		"cpio": "_zip",
+		"bz2": "_zip",
+		"bzip2": "_zip",
+		"tvz2": "_zip",
+		"tvz": "_zip",
+		"gz": "_zip",
+		"gzip": "_zip",
+		"tgz": "_zip",
+		"tpz": "_zip",
+		"z": "_zip",
+		"taz": "_zip",
+		"lzh": "_zip",
+		"lha": "_zip",
+		"rpm": "_zip",
+		"deb": "_zip",
+		"arj": "_zip",
+		"vhd": "_zip",
+		"wim": "_zip",
+		"swm": "_zip",
+		"fat": "_zip",
+		"ntfs": "_zip",
+		"dmg": "_zip",
+		"hfs": "_zip",
+		"xar": "_zip",
+		"squashfs": "_zip",
+
+		"dll": "_dll",
+		"bin": "_bin",
+		"exe": "_exe",
+
+		"wasm": "_webassembly",
+		"exs": "_elixir"
+	},
+
+	"languageIds": {
+		"ini": "_config",
+		"properties": "_config",
+
+		"bat": "_shell",
+		"powershell": "_shell",
+		"shellscript": "_shell",
+
+		"plaintext": "_plaintext",
+		"log": "_log",
+
+		"meml": "_meml",
+		"json": "_json",
+		"xml": "_xml",
+		"yaml": "_yaml",
+		"markdown": "_markdown",
+
+		"html": "_html",
+		"css": "_css",
+		"scss": "_scss",
+		"javascript": "_javascript",
+		"typescript": "_typescript",
+
+		"c": "_c",
+		"cpp": "_cpp",
+		"csharp": "_csharp",
+		"fsharp": "_fsharp",
+
+		"python": "_python",
+		"java": "_java",
+		"lua": "_lua",
+		"rust": "_rust",
+		"elixir": "_elixir",
+		"ruby": "_ruby",
+		"go": "_go"
+	},
+
+	"iconDefinitions": {
+		"_file": { "iconPath": "./icons/_file.svg" },
+
+		"_folder": { "iconPath": "./icons/_folder.svg" },
+		"_folderExpanded": { "iconPath": "./icons/_folderExpanded.svg" },
+
+		"_rootFolder": { "iconPath": "./icons/_rootFolder.svg" },
+		"_rootFolderExpanded": { "iconPath": "./icons/_rootFolderExpanded.svg" },
+
+		"_plaintext": { "iconPath": "./icons/plaintext.svg" },
+		"_richtext": { "iconPath": "./icons/richtext.svg" },
+		"_log": { "iconPath": "./icons/log.svg" },
+
+		"_image": { "iconPath": "./icons/_image.svg" },
+		"_svg": { "iconPath": "./icons/-svg.svg" },
+		"_audio": { "iconPath": "./icons/_audio.svg" },
+		"_video": { "iconPath": "./icons/_video.svg" },
+		"_3d": { "iconPath": "./icons/_3d.svg" },
+		"_config": { "iconPath": "./icons/_config.svg" },
+		"_zip": { "iconPath": "./icons/-zip.svg" },
+		"_dll": { "iconPath": "./icons/-dll.svg" },
+		"_bin": { "iconPath": "./icons/-bin.svg" },
+		"_exe": { "iconPath": "./icons/-exe.svg" },
+		"_shell": { "iconPath": "./icons/_shell.svg" },
+
+		"_json": { "iconPath": "./icons/json.svg" },
+		"_meml": { "iconPath": "./icons/meml.svg" },
+		"_xml": { "iconPath": "./icons/xml.svg" },
+		"_yaml": { "iconPath": "./icons/yaml.svg" },
+		"_markdown": { "iconPath": "./icons/markdown.svg" },
+
+		"_html": { "iconPath": "./icons/html.svg" },
+		"_css": { "iconPath": "./icons/css.svg" },
+		"_scss": { "iconPath": "./icons/scss.svg" },
+		"_javascript": { "iconPath": "./icons/javascript.svg" },
+		"_typescript": { "iconPath": "./icons/typescript.svg" },
+		"_webassembly": { "iconPath": "./icons/webassembly.svg" },
+
+		"_c": { "iconPath": "./icons/c.svg" },
+		"_cpp": { "iconPath": "./icons/cpp.svg" },
+		"_csharp": { "iconPath": "./icons/csharp.svg" },
+		"_fsharp": { "iconPath": "./icons/fsharp.svg" },
+
+		"_python": { "iconPath": "./icons/python.svg" },
+		"_java": { "iconPath": "./icons/java.svg" },
+		"_lua": { "iconPath": "./icons/lua.svg" },
+		"_rust": { "iconPath": "./icons/rust.svg" },
+		"_elixir": { "iconPath": "./icons/elixir.svg" },
+		"_ruby": { "iconPath": "./icons/ruby.svg" },
+		"_go": { "iconPath": "./icons/go.svg" }
+	}
+}
