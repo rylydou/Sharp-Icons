@@ -6,7 +6,7 @@ All icons are designed at 16px so they render sharp.
 
 How it looks for you
 
-![Icons in your editor](images/readme/all-icons.svg)
+![Icons in your editor](images/readme/all-icons.png)
 
 How it look in a project
 
