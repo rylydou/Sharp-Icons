@@ -1,19 +1,15 @@
-![Sharp Icons](images/logo.png) v0.0.1
+![Sharp Icons](images/logo.png)
 
 ---
 
-All icons are designed at 16px so they render sharp.
+![Icons](images/readme/icons.png)
 
-How it looks for you
+...and the icons still look good at a low resolution and on any background.
 
-![Icons in your editor](images/readme/all-icons.png)
+![Small icons](images/readme/icons-small.png)
 
-How it look in a project
-
-![Icons in editor](images/readme/in-editor.png)
-
-more icons coming soon... [is your favorite langauge missing?](https://github.com/CiberTurtle/Sharp-Icons/issues)
+And with more icons to come! [is your favorite language missing?](https://github.com/CiberTurtle/Sharp-Icons/issues/new/choose)
 
 ---
 
-[Figma Project](https://www.figma.com/file/XTSnjiwI5MXJnqEwZDetnT/VSCode-Icons) | [Github Repo](https://github.com/CiberTurtle/Sharp-Icons) | [Report Bugs / Suggest Features](https://github.com/CiberTurtle/Sharp-Icons/issues) | [Changelog](CHANGELOG.md) | [About Me](https://github.com/CiberTurtle)
+[Figma Project](https://www.figma.com/file/XTSnjiwI5MXJnqEwZDetnT/VSCode-Icons) | [Github Repo](https://github.com/CiberTurtle/Sharp-Icons) | [Issue Tracker](https://github.com/CiberTurtle/Sharp-Icons/issues) | [Changelog](CHANGELOG.md) | [Me](https://github.com/CiberTurtle)
