@@ -4,10 +4,10 @@
 	"file": "file",
 
 	"folder": "folder",
-	"folderExpanded": "folderopen",
+	"folderExpanded": "folder_open",
 
 	"rootFolder": "root",
-	"rootFolderExpanded": "rootopen",
+	"rootFolderExpanded": "root_open",
 
 	"folderNames": {
 		".vscode": "dot-folder",
