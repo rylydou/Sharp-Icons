@@ -1,0 +1,231 @@
+{
+	"files": {
+		"plaintext": {
+			"exts": ["txt"],
+			"langs": ["plaintext"]
+		},
+		"richtext": {
+			"exts": ["rtf", "pdf", "docx", "doc", "gdoc", "odt", "sxw"]
+		},
+		"log": {
+			"exts": ["log"],
+			"langs": ["log"]
+		},
+
+		"image": {
+			"exts": ["png", "jpg", "jpeg", "bmp", "ico", "gif", "psd", "xcf"]
+		},
+		"svg": {
+			"exts": ["svg"]
+		},
+		"audio": {
+			"exts": ["aiff", "alac", "flac", "mp3", "ogg", "wav"]
+		},
+		"video": {
+			"exts": ["webm", "mkv", "avi", "mov", "mp4"]
+		},
+		"model": {
+			"exts": ["blend", "block", "c4d", "stl", "obj", "fbx", "3d-objects", "x3d-object"]
+		},
+
+		"archive": {
+			"exts": ["7z", "zip", "rar", "001", "cab", "iso", "xz", "txz", "lzma", "tar", "cpio", "bz2", "barchive2", "tvz2", "tvz", "gz", "garchive", "tgz", "tpz", "z", "taz", "lzh", "lza", "rpm", "deb", "arj", "vhd", "wim", "swm", "fat", "ntfs", "dmg", "hfs", "xar", "squashfs", "vsix"]
+		},
+		"object": {
+			"exts": ["dll", "so", "o", "elf", "bundle"]
+		},
+		"bin": {
+			"exts": ["bin"]
+		},
+		"app": {
+			"exts": ["exe", "app"]
+		},
+		"script": {
+			"exts": ["bat", "ps1", "bash", "sh", "cmd"],
+			"langs": ["bat", "powershell", "shellscript"]
+		},
+
+		"config": {
+			"exts": ["ini"],
+			"langs": ["ini"]
+		},
+		"readme": {
+			"exts": ["", "txt", "md"],
+			"names": ["readme"]
+		},
+		"info": {
+			"exts": ["", "txt", "md"],
+			"names": ["changelog", "copying", "contributing"]
+		},
+		"license": {
+			"exts": ["", "txt", "md"],
+			"names": ["license"]
+		},
+		"todo": {
+			"exts": ["", "txt", "md"],
+			"names": ["todo", "tasks", "plans"]
+		},
+		"git": {
+			"names": [".gitignore", ".gitattributes"]
+		},
+
+		"json": {
+			"exts": ["json", "jsonc"],
+			"langs": ["json", "jsonc"]
+		},
+		"xml": {
+			"exts": ["xml"],
+			"langs": ["xml"]
+		},
+		"yaml": {
+			"exts": ["yaml"],
+			"langs": ["yaml"]
+		},
+		"markdown": {
+			"exts": ["md"],
+			"langs": ["markdown"]
+		},
+		"csv": {
+			"exts": ["csv"],
+			"langs": ["csv"]
+		},
+
+		"html": {
+			"exts": ["html"],
+			"langs": ["html"]
+		},
+		"css": {
+			"exts": ["css"],
+			"langs": ["css"]
+		},
+		"scss": {
+			"exts": ["scss", "sass"],
+			"langs": ["scss"]
+		},
+		"javascript": {
+			"exts": ["js"],
+			"langs": ["javascript"]
+		},
+		"typescript": {
+			"exts": ["ts"],
+			"langs": ["typescript"]
+		},
+		"webassembly": {
+			"exts": ["wasm"],
+			"langs": ["webassembly"]
+		},
+
+		"assembly": {
+			"exts": ["asm", "s"]
+		},
+		"c": {
+			"exts": ["c"],
+			"langs": ["c"]
+		},
+		"h": {
+			"exts": ["h"]
+		},
+		"cpp": {
+			"exts": ["cpp"],
+			"langs": ["cpp"]
+		},
+		"hpp": {
+			"exts": ["hpp"]
+		},
+		"csharp": {
+			"exts": ["cs"],
+			"langs": ["csharp"]
+		},
+		"fsharp": {
+			"exts": ["fs", "fsi", "fsx", "fsscript"],
+			"langs": ["fsharp"]
+		},
+		"debug": {
+			"exts": ["pdb"]
+		},
+
+		"python": {
+			"exts": ["py"],
+			"langs": ["python"]
+		},
+		"java": {
+			"exts": ["java"],
+			"langs": ["java"]
+		},
+		"lua": {
+			"exts": ["lua"],
+			"langs": ["lua"]
+		},
+		"rust": {
+			"exts": ["rs"],
+			"langs": ["rust"]
+		},
+		"r": {
+			"exts": ["r"],
+			"langs": ["r"]
+		},
+		"sql": {
+			"exts": ["sql"],
+			"langs": ["sql"]
+		},
+		"ruby": {
+			"exts": ["rb"],
+			"langs": ["ruby"]
+		},
+		"go": {
+			"exts": ["go"],
+			"langs": ["go"]
+		},
+		"elixir": {
+			"exts": ["ex", "exs"],
+			"langs": ["elixir"]
+		},
+		"haskell": {
+			"exts": ["hs", "lhs"],
+			"langs": ["haskell"]
+		},
+
+		"jsx": {
+			"exts": ["jsx"],
+			"langs": ["javascriptreact"]
+		},
+		"tsx": {
+			"exts": ["tsx"],
+			"langs": ["typescriptreact"]
+		},
+		"dart": {
+			"exts": ["dart"],
+			"langs": ["dart"]
+		},
+		"vue": {
+			"exts": ["vue"],
+			"langs": ["vue"]
+		},
+		"svelte": {
+			"exts": ["svelte"],
+			"langs": ["svelte"]
+		},
+		"cshtml": {
+			"exts": ["cshtml"],
+			"langs": ["razor", "aspnetcorerazor"]
+		},
+
+		"shader": {
+			"exts": ["fx", "glsl", "tesc", "tese", "cg", "sf", "hlsl"],
+			"langs": ["glsl", "hlsl", "shaderlab"]
+		},
+		"shader_vertex": {
+			"exts": ["vert", "vs", "glslv"]
+		},
+		"shader_fragment": {
+			"exts": ["frag", "glslf"]
+		},
+		"shader_geometry": {
+			"exts": ["geom", "glslg", "gs"]
+		},
+		"shader_compute": {
+			"exts": ["comp"]
+		}
+	},
+	"dotFolders": [".vscode", ".github"]
+}

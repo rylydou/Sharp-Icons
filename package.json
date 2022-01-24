@@ -1,7 +1,7 @@
 {
 	"name": "sharp-icons",
 	"displayName": "Sharp Icons",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"preview": false,
 	"publisher": "CiberTurtle",
 	"description": "Sharp looking icons for vscode",
@@ -33,5 +33,15 @@
 				"path": "./icon-theme.json"
 			}
 		]
+	},
+	"scripts": {
+		"start": "nodemon --watch src src/index.js",
+		"build": "node src/index.js && mkdir -p build",
+		"package": "vsce package -o ./build/sharp-icons.vsix",
+		"prepublishOnly": "npm run build && vsce publish"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15",
+		"vsce": "^2.6.3"
 	}
 }
