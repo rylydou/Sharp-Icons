@@ -11,6 +11,10 @@
 			"exts": ["log"],
 			"langs": ["log"]
 		},
+		"diff": {
+			"exts": ["diff"],
+			"langs": ["diff"]
+		},
 
 		"image": {
 			"exts": ["png", "jpg", "jpeg", "bmp", "ico", "gif", "psd", "xcf"]
@@ -47,7 +51,8 @@
 
 		"config": {
 			"exts": ["ini"],
-			"langs": ["ini"]
+			"langs": ["ini", "properties"],
+			"fullNames": [".editorconfig", ".vscodeignore"]
 		},
 		"readme": {
 			"exts": ["", "txt", "md"],
@@ -55,18 +60,19 @@
 		},
 		"info": {
 			"exts": ["", "txt", "md"],
-			"names": ["changelog", "copying", "contributing"]
+			"names": ["changelog", "history", "news", "releases", "contributing", "support", "contributors", "authors", "acknowledgments", "code_of_conduct", "eula", "issue_template", "pull-request-template", "codeowners", "install", "building"]
 		},
 		"license": {
 			"exts": ["", "txt", "md"],
-			"names": ["license"]
+			"names": ["license", "copying"]
 		},
 		"todo": {
 			"exts": ["", "txt", "md"],
 			"names": ["todo", "tasks", "plans"]
 		},
 		"git": {
-			"names": [".gitignore", ".gitattributes"]
+			"fullNames": [".gitignore", ".gitattributes", ".gitmodules"],
+			"langs": ["gitignore", "gitattributes", "gitmodules", "git-commit", "git-rebase", "scminput"]
 		},
 
 		"json": {
@@ -75,7 +81,8 @@
 		},
 		"xml": {
 			"exts": ["xml"],
-			"langs": ["xml"]
+			"langs": ["xml"],
+			"fullNames": ["app.manifest"]
 		},
 		"yaml": {
 			"exts": ["yaml"],
@@ -88,6 +95,10 @@
 		"csv": {
 			"exts": ["csv"],
 			"langs": ["csv"]
+		},
+		"toml": {
+			"exts": ["toml"],
+			"langs": ["toml"]
 		},
 
 		"html": {
@@ -113,6 +124,10 @@
 		"webassembly": {
 			"exts": ["wasm"],
 			"langs": ["webassembly"]
+		},
+		"sql": {
+			"exts": ["sql"],
+			"langs": ["sql"]
 		},
 
 		"assembly": {
@@ -164,10 +179,6 @@
 			"exts": ["r"],
 			"langs": ["r"]
 		},
-		"sql": {
-			"exts": ["sql"],
-			"langs": ["sql"]
-		},
 		"ruby": {
 			"exts": ["rb"],
 			"langs": ["ruby"]
@@ -205,14 +216,21 @@
 			"exts": ["svelte"],
 			"langs": ["svelte"]
 		},
+		"xhtml": {
+			"exts": ["xhtml"]
+		},
 		"cshtml": {
 			"exts": ["cshtml"],
 			"langs": ["razor", "aspnetcorerazor"]
 		},
+		"php": {
+			"exts": ["php"],
+			"langs": ["php"]
+		},
 
 		"shader": {
 			"exts": ["fx", "glsl", "tesc", "tese", "cg", "sf", "hlsl"],
-			"langs": ["glsl", "hlsl", "shaderlab"]
+			"langs": ["glsl", "cg", "hlsl", "shaderlab"]
 		},
 		"shader_vertex": {
 			"exts": ["vert", "vs", "glslv"]

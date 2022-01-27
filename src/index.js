@@ -60,11 +60,15 @@ for (const key in data.files) {
 		value.exts?.forEach((ext) => {
 			theme.fileExtensions[ext] = key;
 		});
-
-		value.langs?.forEach((lang) => {
-			theme.languageIds[lang] = key;
-		});
 	}
+
+	value.langs?.forEach((lang) => {
+		theme.languageIds[lang] = key;
+	});
+
+	value.fullNames?.forEach((name) => {
+		theme.fileNames[name] = key;
+	});
 }
 
 data.dotFolders.forEach((folder) => {
