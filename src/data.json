@@ -11,10 +11,6 @@
 			"exts": ["log"],
 			"langs": ["log"]
 		},
-		"diff": {
-			"exts": ["diff"],
-			"langs": ["diff"]
-		},
 
 		"image": {
 			"exts": ["png", "jpg", "jpeg", "bmp", "ico", "gif", "psd", "xcf"]
@@ -29,23 +25,72 @@
 			"exts": ["webm", "mkv", "avi", "mov", "mp4"]
 		},
 		"model": {
-			"exts": ["blend", "block", "c4d", "stl", "obj", "fbx", "3d-objects", "x3d-object"]
+			"exts": [
+				"blend",
+				"block",
+				"c4d",
+				"stl",
+				"obj",
+				"fbx",
+				"3d-objects",
+				"x3d-object"
+			]
+		},
+		"font": {
+			"exts": ["ttf", "ttc", "otf", "woff", "woff2"]
 		},
 
 		"archive": {
-			"exts": ["7z", "zip", "rar", "001", "cab", "iso", "xz", "txz", "lzma", "tar", "cpio", "bz2", "barchive2", "tvz2", "tvz", "gz", "garchive", "tgz", "tpz", "z", "taz", "lzh", "lza", "rpm", "deb", "arj", "vhd", "wim", "swm", "fat", "ntfs", "dmg", "hfs", "xar", "squashfs", "vsix"]
+			"exts": [
+				"7z",
+				"zip",
+				"rar",
+				"001",
+				"cab",
+				"iso",
+				"xz",
+				"txz",
+				"lzma",
+				"tar",
+				"cpio",
+				"bz2",
+				"barchive2",
+				"tvz2",
+				"tvz",
+				"gz",
+				"garchive",
+				"tgz",
+				"tpz",
+				"z",
+				"taz",
+				"lzh",
+				"lza",
+				"rpm",
+				"deb",
+				"arj",
+				"vhd",
+				"wim",
+				"swm",
+				"fat",
+				"ntfs",
+				"dmg",
+				"hfs",
+				"xar",
+				"squashfs",
+				"vsix"
+			]
 		},
 		"object": {
-			"exts": ["dll", "so", "o", "elf", "bundle"]
+			"exts": ["dll", "so", "o", "elf", "dylib", "bundle"]
 		},
 		"bin": {
-			"exts": ["bin"]
+			"exts": ["bin", "dat"]
 		},
 		"app": {
 			"exts": ["exe", "app"]
 		},
 		"script": {
-			"exts": ["bat", "ps1", "bash", "sh", "cmd"],
+			"exts": ["bat", "ps1", "bash", "sh", "cmd", "zsh"],
 			"langs": ["bat", "powershell", "shellscript"]
 		},
 
@@ -60,7 +105,24 @@
 		},
 		"info": {
 			"exts": ["", "txt", "md"],
-			"names": ["changelog", "history", "news", "releases", "contributing", "support", "contributors", "authors", "acknowledgments", "code_of_conduct", "eula", "issue_template", "pull-request-template", "codeowners", "install", "building"]
+			"names": [
+				"changelog",
+				"history",
+				"news",
+				"releases",
+				"contributing",
+				"support",
+				"contributors",
+				"authors",
+				"acknowledgments",
+				"code_of_conduct",
+				"eula",
+				"issue_template",
+				"pull-request-template",
+				"codeowners",
+				"install",
+				"building"
+			]
 		},
 		"license": {
 			"exts": ["", "txt", "md"],
@@ -72,7 +134,18 @@
 		},
 		"git": {
 			"fullNames": [".gitignore", ".gitattributes", ".gitmodules"],
-			"langs": ["gitignore", "gitattributes", "gitmodules", "git-commit", "git-rebase", "scminput"]
+			"langs": [
+				"gitignore",
+				"gitattributes",
+				"gitmodules",
+				"git-commit",
+				"git-rebase",
+				"scminput"
+			]
+		},
+		"diff": {
+			"exts": ["diff"],
+			"langs": ["diff"]
 		},
 
 		"json": {

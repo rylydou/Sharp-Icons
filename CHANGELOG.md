@@ -1,5 +1,16 @@
 # Change Log
 
+## [1.1.2]
+
+- More blocky binary file icon
+- `.dat` files now use the binary icon
+- Added lines the the diff icon
+- Added a font icon
+- Update the vertex shader icon to have a consistent line thickness and be more interesting
+- Made the web assembly icon look less like web3 (Now it looks like the default favicon in chrome)
+- Tweaked the json icon to have square dots instead of dot dots
+- Tweaked sql icon in the kid of way as the json icon
+
 ## [1.1.1]
 
 - Fixed a few loose ends
