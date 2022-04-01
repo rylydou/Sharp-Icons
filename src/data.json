@@ -90,7 +90,7 @@
 			"exts": ["exe", "app"]
 		},
 		"script": {
-			"exts": ["bat", "ps1", "bash", "sh", "cmd", "zsh"],
+			"exts": ["bat", "ps1", "bash", "sh", "cmd", "zsh", "fish"],
 			"langs": ["bat", "powershell", "shellscript"]
 		},
 
@@ -316,7 +316,18 @@
 		},
 		"shader_compute": {
 			"exts": ["comp"]
+		},
+
+		"icon": {
+			"exts": ["ico", "png", "svg"],
+			"names": ["favicon"]
+		},
+		"aseprite": {
+			"exts": ["ase", "aseprite"]
+		},
+		"robot": {
+			"fullNames": ["robots.txt"]
 		}
 	},
-	"dotFolders": [".vscode", ".github"]
+	"dotFolders": [".git", ".vscode", ".github"]
 }
