@@ -1,5 +1,16 @@
 # Change Log
 
+## [1.1.4]
+
+- Added Dockerfile icon
+  [#4](https://github.com/CiberTurtle/Sharp-Icons/issues/4)
+- Gave yarn related icons
+  [#4](https://github.com/CiberTurtle/Sharp-Icons/issues/4)
+- Gave gradle related icons
+- Gave cargo related icons
+- Added .ignore file icons
+- Added info file icons
+
 ## [1.1.3]
 
 - Added favicon icon

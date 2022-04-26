@@ -90,14 +90,20 @@
 			"exts": ["exe", "app"]
 		},
 		"script": {
-			"exts": ["bat", "ps1", "bash", "sh", "cmd", "zsh", "fish"],
-			"langs": ["bat", "powershell", "shellscript"]
+			"exts": ["bat", "ps1", "bash", "sh", "cmd", "zsh", "fish", "gradle"],
+			"langs": ["bat", "powershell", "shellscript"],
+			"fullNames": ["gradlew"]
 		},
 
 		"config": {
 			"exts": ["ini"],
 			"langs": ["ini", "properties"],
-			"fullNames": [".editorconfig", ".vscodeignore"]
+			"fullNames": [
+				".editorconfig",
+				".vscodeignore",
+				".prettierignore",
+				".eslintignore"
+			]
 		},
 		"readme": {
 			"exts": ["", "txt", "md"],
@@ -121,7 +127,9 @@
 				"pull-request-template",
 				"codeowners",
 				"install",
-				"building"
+				"building",
+				"governance",
+				"security"
 			]
 		},
 		"license": {
@@ -147,6 +155,11 @@
 			"exts": ["diff"],
 			"langs": ["diff"]
 		},
+		"docker": {
+			"exts": ["dockerfile"],
+			"langs": ["dockerfile"],
+			"fullNames": ["Dockerfile"]
+		},
 
 		"json": {
 			"exts": ["json", "jsonc"],
@@ -158,8 +171,9 @@
 			"fullNames": ["app.manifest"]
 		},
 		"yaml": {
-			"exts": ["yaml"],
-			"langs": ["yaml"]
+			"exts": ["yaml", "yml"],
+			"langs": ["yaml"],
+			"fullNames": ["yarn.lock", ".yarnrc"]
 		},
 		"markdown": {
 			"exts": ["md"],
@@ -171,7 +185,8 @@
 		},
 		"toml": {
 			"exts": ["toml"],
-			"langs": ["toml"]
+			"langs": ["toml"],
+			"fullNames": ["Cargo.lock"]
 		},
 
 		"html": {
@@ -187,7 +202,7 @@
 			"langs": ["scss"]
 		},
 		"javascript": {
-			"exts": ["js"],
+			"exts": ["js", "cjs"],
 			"langs": ["javascript"]
 		},
 		"typescript": {
@@ -329,5 +344,5 @@
 			"fullNames": ["robots.txt"]
 		}
 	},
-	"dotFolders": [".git", ".vscode", ".github"]
+	"dotFolders": [".git", ".vscode", ".vim", ".github", ".yarn", ".devcontainer"]
 }
