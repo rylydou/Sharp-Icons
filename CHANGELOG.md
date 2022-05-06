@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.1.5]
+
+- Gave http, rest, and prima files the database icon
+  [#5](https://github.com/CiberTurtle/Sharp-Icons/issues/5)
+
 ## [1.1.4]
 
 - Added Dockerfile icon

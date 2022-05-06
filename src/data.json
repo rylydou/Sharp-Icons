@@ -213,9 +213,9 @@
 			"exts": ["wasm"],
 			"langs": ["webassembly"]
 		},
-		"sql": {
-			"exts": ["sql"],
-			"langs": ["sql"]
+		"database": {
+			"exts": ["sql", "http", "rest", "prisma"],
+			"langs": ["sql", "http", "prisma"]
 		},
 
 		"assembly": {
