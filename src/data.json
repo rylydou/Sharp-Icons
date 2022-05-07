@@ -81,7 +81,7 @@
 			]
 		},
 		"object": {
-			"exts": ["dll", "so", "o", "elf", "dylib", "bundle"]
+			"exts": ["dll", "so", "o", "elf", "dylib", "bundle", "jar", "class"]
 		},
 		"bin": {
 			"exts": ["bin", "dat"]
@@ -255,6 +255,14 @@
 			"exts": ["java"],
 			"langs": ["java"]
 		},
+		"scala": {
+			"exts": ["scala", "sc", "sbt"],
+			"langs": ["scala"]
+		},
+		"kotlin": {
+			"exts": ["kotlin", "kt"],
+			"langs": ["kotlin"]
+		},
 		"lua": {
 			"exts": ["lua"],
 			"langs": ["lua"]
@@ -283,6 +291,10 @@
 			"exts": ["hs", "lhs"],
 			"langs": ["haskell"]
 		},
+		"julia": {
+			"exts": ["jl"],
+			"langs": ["julia", "juliamarkdown"]
+		},
 
 		"jsx": {
 			"exts": ["jsx"],
@@ -299,6 +311,10 @@
 		"vue": {
 			"exts": ["vue"],
 			"langs": ["vue"]
+		},
+		"nuxt": {
+			"exts": ["nuxt"],
+			"langs": ["nuxt"]
 		},
 		"svelte": {
 			"exts": ["svelte"],

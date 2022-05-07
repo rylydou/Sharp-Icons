@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.1.6]
+
+- Added julia icon
+- Added kotlin icon
+- Added scala icon
+- Tweaked vue icon
+
 ## [1.1.5]
 
 - Gave http, rest, and prima files the database icon
