@@ -130,6 +130,6 @@ dist
 .pnp.*
 
 # Custom
-
-*.vsix
-/build
+VSCE_PAT.txt
+icon-theme.json
+bin/

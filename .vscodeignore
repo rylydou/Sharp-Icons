@@ -10,5 +10,9 @@ vsc-extension-quickstart.md
 **/*.map
 **/*.ts
 
+VSCE_PAT.txt
+CONTRIBUTING.md
+compile.js
+config.json
+bin/
 node_modules/
-build/

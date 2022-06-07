@@ -1,9 +1,7 @@
-'use strict';
+console.log('Building...')
 
-console.log('Building...');
-
-const fs = require('fs');
-const data = require('./data.json');
+const fs = require('fs')
+const config = require('./config.json')
 
 let theme = {
 	hidesExplorerArrows: true,
@@ -35,47 +33,47 @@ let theme = {
 		dotfolder: { iconPath: './icons/dotfolder.svg' },
 		dotfolder_open: { iconPath: './icons/dotfolder_open.svg' },
 	},
-};
+}
 
-for (const key in data.files) {
-	const value = data.files[key];
+for (const key in config.files) {
+	const value = config.files[key]
 
-	theme.iconDefinitions[key] = { iconPath: `./icons/${key}.svg` };
+	theme.iconDefinitions[key] = { iconPath: `./icons/${key}.svg` }
 
 	if ('names' in value) {
 		value.names.forEach((name) => {
 			if ('exts' in value) {
 				value.exts.forEach((ext) => {
 					if (ext.length === 0) {
-						theme.fileNames[name] = key;
+						theme.fileNames[name] = key
 					} else {
-						theme.fileNames[`${name}.${ext}`] = key;
+						theme.fileNames[`${name}.${ext}`] = key
 					}
-				});
+				})
 			} else {
-				theme.fileNames[name] = key;
+				theme.fileNames[name] = key
 			}
-		});
+		})
 	} else {
 		value.exts?.forEach((ext) => {
-			theme.fileExtensions[ext] = key;
-		});
+			theme.fileExtensions[ext] = key
+		})
 	}
 
 	value.langs?.forEach((lang) => {
-		theme.languageIds[lang] = key;
-	});
+		theme.languageIds[lang] = key
+	})
 
 	value.fullNames?.forEach((name) => {
-		theme.fileNames[name] = key;
-	});
+		theme.fileNames[name] = key
+	})
 }
 
-data.dotFolders.forEach((folder) => {
-	theme.folderNames[folder] = 'dotfolder';
-	theme.folderNamesExpanded[folder] = 'dotfolder_open';
-});
+config.dotFolders.forEach((folder) => {
+	theme.folderNames[folder] = 'dotfolder'
+	theme.folderNamesExpanded[folder] = 'dotfolder_open'
+})
 
 fs.writeFile('icon-theme.json', JSON.stringify(theme /* , null, '\t' */), () => {
-	console.log('Build completed successfully');
-});
+	console.log('Build completed successfully')
+})

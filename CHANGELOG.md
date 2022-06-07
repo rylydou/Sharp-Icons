@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.8]
+- Added less icon
+- Tweaked docker icon's fin
+- Added CONTRIBUTING.md
+- Organized internal files
+
 ## [1.1.7]
 
 - Fixed database icon
