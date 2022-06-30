@@ -541,6 +541,15 @@
 				"go"
 			]
 		},
+		"perl": {
+			"exts": [
+				"pm",
+				"pl"
+			],
+			"langs": [
+				"perl"
+			]
+		},
 		"elixir": {
 			"exts": [
 				"ex",

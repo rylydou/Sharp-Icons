@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.9]
+- Added perl icon
+- Changed git icon to not suck
+
 ## [1.1.8]
 - Added less icon
 - Tweaked docker icon's fin
