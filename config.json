@@ -338,6 +338,22 @@
 				"Cargo.lock"
 			]
 		},
+		"meml": {
+			"exts": [
+				"meml"
+			],
+			"langs": [
+				"meml"
+			]
+		},
+		"hxml": {
+			"exts": [
+				"hxml"
+			],
+			"langs": [
+				"hxml"
+			]
+		},
 		"html": {
 			"exts": [
 				"html"
@@ -550,6 +566,14 @@
 				"perl"
 			]
 		},
+		"haxe": {
+			"exts": [
+				"hx"
+			],
+			"langs": [
+				"haxe"
+			]
+		},
 		"elixir": {
 			"exts": [
 				"ex",
@@ -649,13 +673,14 @@
 		},
 		"shader": {
 			"exts": [
-				"fx",
 				"glsl",
+				"essl",
+				"hlsl",
+				"fx",
 				"tesc",
 				"tese",
 				"cg",
-				"sf",
-				"hlsl"
+				"sf"
 			],
 			"langs": [
 				"glsl",

@@ -1,10 +1,18 @@
 # Change Log
 
+## [1.1.10]
+
+- Added haxe icon
+- Added hxml icon
+- Gave essl shader icon
+
 ## [1.1.9]
+
 - Added perl icon
 - Changed git icon to not suck
 
 ## [1.1.8]
+
 - Added less icon
 - Tweaked docker icon's fin
 - Added CONTRIBUTING.md
