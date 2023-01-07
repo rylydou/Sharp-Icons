@@ -1,50 +1,94 @@
 {
 	"name": "sharp-icons",
 	"displayName": "Sharp Icons",
-	"version": "1.1.10",
-	"preview": false,
-	"publisher": "CiberTurtle",
-	"description": "Sharp looking icons for vscode",
-	"icon": "images/icon.png",
-	"repository": "https://github.com/CiberTurtle/Sharp-Icons",
-	"bugs": "https://github.com/CiberTurtle/Sharp-Icons/issues",
-	"homepage": "https://github.com/CiberTurtle/Sharp-Icons",
-	"license": "MIT",
-	"keywords": [
-		"Icons",
-		"Sharp",
-		"Crisp"
-	],
-	"categories": [
-		"Themes"
-	],
+	"description": "",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.68.0"
+	},
+	"icon": "logo.png",
 	"galleryBanner": {
 		"color": "#42A5F5",
 		"theme": "dark"
 	},
-	"engines": {
-		"vscode": "^1.63.0"
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"sharp",
+		"icons",
+		"theme",
+		"icon-theme",
+		"customization"
+	],
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		},
+		"virtualWorkspaces": true
 	},
 	"contributes": {
 		"iconThemes": [
 			{
 				"id": "sharp-icons",
-				"label": "Sharp Icons",
-				"path": "./icon-theme.json"
+				"label": "Sharp Icons - Default",
+				"path": "dist/default/icon-theme.json"
+			},
+			{
+				"id": "sharp-icons_monokai",
+				"label": "Sharp Icons - Monokai",
+				"path": "dist/monokai/icon-theme.json"
+			},
+			{
+				"id": "sharp-icons_monokai_pro",
+				"label": "Sharp Icons - Monokai Pro",
+				"path": "dist/monokai_pro/icon-theme.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox",
+				"label": "Sharp Icons - Gruvbox",
+				"path": "dist/gruvbox/icon-theme.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox_faded",
+				"label": "Sharp Icons - Gruvbox Faded",
+				"path": "dist/gruvbox_faded/icon-theme.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox_bright",
+				"label": "Sharp Icons - Gruvbox Bright",
+				"path": "dist/gruvbox_bright/icon-theme.json"
+			},
+			{
+				"id": "sharp-icons_adwaita",
+				"label": "Sharp Icons - Adwaita",
+				"path": "dist/adwaita/icon-theme.json"
+			},
+			{
+				"id": "sharp-icons_ios_light",
+				"label": "Sharp Icons - iOS Light",
+				"path": "dist/ios_light/icon-theme.json"
+			},
+			{
+				"id": "sharp-icons_ios_dark",
+				"label": "Sharp Icons - iOS Dark",
+				"path": "dist/ios_dark/icon-theme.json"
 			}
 		]
 	},
 	"scripts": {
-		"start": "nodemon -w config.json compile.js",
-		"compile": "node compile.js",
-		"package": "npm run compile && mkdir -p bin && vsce package -o bin",
-		"release": "npm run compile && vsce publish"
+		"build": "npx ts-node build"
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.15",
-		"vsce": "^2.9.1"
+		"@types/node": "16.x",
+		"ts-node": "^10.8.1",
+		"typescript": "^4.7.2"
 	},
-	"publishConfig": {
-		"access": "public"
+	"dependencies": {
+		"xmlbuilder2": "^3.0.2"
 	}
 }

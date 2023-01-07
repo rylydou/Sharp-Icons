@@ -1,14 +1,10 @@
-![Sharp Icons](images/logo.png)
+<!-- ![Sharp Icons](images/logo.png) -->
 
----
+![](images/readme/banner.svg)
 
-![Icons](images/readme/icons.png)
+*And with more icons to come...*
 
-...and the icons still look good at a low resolution and on any background.
-
-![Small icons](images/readme/icons-small.png)
-
-And with more icons to come! [Is your favorite language missing?](https://github.com/CiberTurtle/Sharp-Icons/issues/new/choose)
+[Is your favorite language missing?](https://github.com/CiberTurtle/Sharp-Icons/issues/new/choose)
 
 ---
 

@@ -1,6 +1,13 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_821_789)">
 <path d="M3 16V7H5V16H3Z" fill="#EF652F"/>
 <path d="M9 5V3H11C12.1046 3 13 3.89543 13 5V9H11V5H9Z" fill="#EF652F"/>
 <circle cx="4" cy="4" r="3" stroke="#EF652F" stroke-width="2"/>
 <circle cx="12" cy="12" r="3" stroke="#EF652F" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_821_789">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
 </svg>
