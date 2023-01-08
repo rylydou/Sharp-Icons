@@ -1,26 +1,33 @@
 {
 	"name": "sharp-icons",
 	"displayName": "Sharp Icons",
-	"description": "",
-	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.68.0"
-	},
-	"icon": "logo.png",
+	"version": "1.1.10",
+	"preview": false,
+	"publisher": "CiberTurtle",
+	"description": "Sharp looking icons for vscode",
+	"icon": "images/icon.png",
+	"repository": "https://github.com/CiberTurtle/Sharp-Icons",
+	"bugs": "https://github.com/CiberTurtle/Sharp-Icons/issues",
+	"homepage": "https://github.com/CiberTurtle/Sharp-Icons",
+	"license": "MIT",
+	"keywords": [
+		"icons",
+		"sharp",
+		"icon-theme",
+		"customization",
+		"theme",
+		"file-icons"
+	],
+	"categories": [
+		"Themes"
+	],
 	"galleryBanner": {
 		"color": "#42A5F5",
 		"theme": "dark"
 	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"sharp",
-		"icons",
-		"theme",
-		"icon-theme",
-		"customization"
-	],
+	"engines": {
+		"vscode": "^1.68.0"
+	},
 	"extensionKind": [
 		"ui",
 		"workspace"
@@ -36,59 +43,116 @@
 			{
 				"id": "sharp-icons",
 				"label": "Sharp Icons - Default",
-				"path": "dist/default/icon-theme.json"
+				"path": "dist/default/normal.json"
+			},
+			{
+				"id": "sharp-icons_folderless",
+				"label": "Sharp Icons - Default - No Folders",
+				"path": "dist/default/folderless.json"
+			},
+			{
+				"id": "sharp-icons_solarized",
+				"label": "Sharp Icons - Solarized",
+				"path": "dist/solarized/normal.json"
+			},
+			{
+				"id": "sharp-icons_solarized_folderless",
+				"label": "Sharp Icons - Solarized - No Folders",
+				"path": "dist/solarized/folderless.json"
 			},
 			{
 				"id": "sharp-icons_monokai",
 				"label": "Sharp Icons - Monokai",
-				"path": "dist/monokai/icon-theme.json"
+				"path": "dist/monokai/normal.json"
+			},
+			{
+				"id": "sharp-icons_monokai_folderless",
+				"label": "Sharp Icons - Monokai - No Folders",
+				"path": "dist/monokai/folderless.json"
 			},
 			{
 				"id": "sharp-icons_monokai_pro",
 				"label": "Sharp Icons - Monokai Pro",
-				"path": "dist/monokai_pro/icon-theme.json"
+				"path": "dist/monokai_pro/normal.json"
+			},
+			{
+				"id": "sharp-icons_monokai_pro_folderless",
+				"label": "Sharp Icons - Monokai Pro - No Folders",
+				"path": "dist/monokai_pro/folderless.json"
 			},
 			{
 				"id": "sharp-icons_gruvbox",
 				"label": "Sharp Icons - Gruvbox",
-				"path": "dist/gruvbox/icon-theme.json"
+				"path": "dist/gruvbox/normal.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox_folderless",
+				"label": "Sharp Icons - Gruvbox - No Folders",
+				"path": "dist/gruvbox/folderless.json"
 			},
 			{
 				"id": "sharp-icons_gruvbox_faded",
 				"label": "Sharp Icons - Gruvbox Faded",
-				"path": "dist/gruvbox_faded/icon-theme.json"
+				"path": "dist/gruvbox_faded/normal.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox_faded_folderless",
+				"label": "Sharp Icons - Gruvbox Faded - No Folders",
+				"path": "dist/gruvbox_faded/folderless.json"
 			},
 			{
 				"id": "sharp-icons_gruvbox_bright",
 				"label": "Sharp Icons - Gruvbox Bright",
-				"path": "dist/gruvbox_bright/icon-theme.json"
+				"path": "dist/gruvbox_bright/normal.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox_bright_folderless",
+				"label": "Sharp Icons - Gruvbox Bright - No Folders",
+				"path": "dist/gruvbox_bright/folderless.json"
 			},
 			{
 				"id": "sharp-icons_adwaita",
 				"label": "Sharp Icons - Adwaita",
-				"path": "dist/adwaita/icon-theme.json"
+				"path": "dist/adwaita/normal.json"
+			},
+			{
+				"id": "sharp-icons_adwaita_folderless",
+				"label": "Sharp Icons - Adwaita - No Folders",
+				"path": "dist/adwaita/folderless.json"
 			},
 			{
 				"id": "sharp-icons_ios_light",
 				"label": "Sharp Icons - iOS Light",
-				"path": "dist/ios_light/icon-theme.json"
+				"path": "dist/ios_light/normal.json"
+			},
+			{
+				"id": "sharp-icons_ios_light_folderless",
+				"label": "Sharp Icons - iOS Light - No Folders",
+				"path": "dist/ios_light/folderless.json"
 			},
 			{
 				"id": "sharp-icons_ios_dark",
 				"label": "Sharp Icons - iOS Dark",
-				"path": "dist/ios_dark/icon-theme.json"
+				"path": "dist/ios_dark/normal.json"
+			},
+			{
+				"id": "sharp-icons_ios_dark_folderless",
+				"label": "Sharp Icons - iOS Dark - No Folders",
+				"path": "dist/ios_dark/folderless.json"
 			}
 		]
 	},
 	"scripts": {
-		"build": "npx ts-node build"
+		"build": "npx ts-node build",
+		"package": "npm run build && mkdir -p bin && vsce package -o bin",
+		"release": "npm run build && vsce publish"
 	},
 	"devDependencies": {
-		"@types/node": "16.x",
-		"ts-node": "^10.8.1",
-		"typescript": "^4.7.2"
-	},
-	"dependencies": {
+		"@types/node": "^16.18.11",
+		"@types/sharp": "^0.31.1",
+		"sharp": "^0.31.3",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.9.4",
 		"xmlbuilder2": "^3.0.2"
 	}
 }

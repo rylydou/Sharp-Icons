@@ -3,7 +3,7 @@ import createThemes from './steps/createThemes'
 import updateManifest from './steps/updateManifest'
 
 createThemes()
-// updateManifest()
-// createImages()
+updateManifest()
+createImages()
 
 console.log('done!')

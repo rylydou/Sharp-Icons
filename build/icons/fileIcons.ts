@@ -7,10 +7,10 @@ interface FileIconAssignments {
 export const fileIcons: FileIconAssignments = {
 	plaintext: {
 		exts: [
-			'txt'
+			'txt',
 		],
 		langs: [
-			'plaintext'
+			'plaintext',
 		]
 	},
 	richtext: {
@@ -21,15 +21,15 @@ export const fileIcons: FileIconAssignments = {
 			'doc',
 			'gdoc',
 			'odt',
-			'sxw'
+			'sxw',
 		]
 	},
 	log: {
 		exts: [
-			'log'
+			'log',
 		],
 		langs: [
-			'log'
+			'log',
 		]
 	},
 	image: {
@@ -41,12 +41,12 @@ export const fileIcons: FileIconAssignments = {
 			'ico',
 			'gif',
 			'psd',
-			'xcf'
+			'xcf',
 		]
 	},
 	svg: {
 		exts: [
-			'svg'
+			'svg',
 		]
 	},
 	audio: {
@@ -56,7 +56,7 @@ export const fileIcons: FileIconAssignments = {
 			'flac',
 			'mp3',
 			'ogg',
-			'wav'
+			'wav',
 		]
 	},
 	video: {
@@ -65,7 +65,7 @@ export const fileIcons: FileIconAssignments = {
 			'mkv',
 			'avi',
 			'mov',
-			'mp4'
+			'mp4',
 		]
 	},
 	model: {
@@ -77,7 +77,7 @@ export const fileIcons: FileIconAssignments = {
 			'obj',
 			'fbx',
 			'3d-objects',
-			'x3d-object'
+			'x3d-object',
 		]
 	},
 	font: {
@@ -86,7 +86,7 @@ export const fileIcons: FileIconAssignments = {
 			'ttc',
 			'otf',
 			'woff',
-			'woff2'
+			'woff2',
 		]
 	},
 	archive: {
@@ -126,7 +126,7 @@ export const fileIcons: FileIconAssignments = {
 			'hfs',
 			'xar',
 			'squashfs',
-			'vsix'
+			'vsix',
 		]
 	},
 	object: {
@@ -138,19 +138,19 @@ export const fileIcons: FileIconAssignments = {
 			'dylib',
 			'bundle',
 			'jar',
-			'class'
+			'class',
 		]
 	},
 	bin: {
 		exts: [
 			'bin',
-			'dat'
+			'dat',
 		]
 	},
 	app: {
 		exts: [
 			'exe',
-			'app'
+			'app',
 		]
 	},
 	script: {
@@ -162,30 +162,30 @@ export const fileIcons: FileIconAssignments = {
 			'cmd',
 			'zsh',
 			'fish',
-			'gradle'
+			'gradle',
 		],
 		langs: [
 			'bat',
 			'powershell',
-			'shellscript'
+			'shellscript',
 		],
 		names: [
-			'gradlew'
+			'gradlew',
 		]
 	},
 	config: {
 		exts: [
-			'ini'
+			'ini',
 		],
 		langs: [
 			'ini',
-			'properties'
+			'properties',
 		],
 		names: [
 			'.editorconfig',
 			'.vscodeignore',
 			'.prettierignore',
-			'.eslintignore'
+			'.eslintignore',
 		]
 	},
 	readme: {
@@ -194,10 +194,10 @@ export const fileIcons: FileIconAssignments = {
 				exts: [
 					'',
 					'txt',
-					'md'
+					'md',
 				],
 				names: [
-					'readme'
+					'readme',
 				]
 			}
 		]
@@ -208,7 +208,7 @@ export const fileIcons: FileIconAssignments = {
 				exts: [
 					'',
 					'txt',
-					'md'
+					'md',
 				],
 				names: [
 					'changelog',
@@ -228,7 +228,7 @@ export const fileIcons: FileIconAssignments = {
 					'install',
 					'building',
 					'governance',
-					'security'
+					'security',
 				]
 			}
 		]
@@ -239,11 +239,11 @@ export const fileIcons: FileIconAssignments = {
 				exts: [
 					'',
 					'txt',
-					'md'
+					'md',
 				],
 				names: [
 					'license',
-					'copying'
+					'copying',
 				]
 			}
 		]
@@ -254,12 +254,12 @@ export const fileIcons: FileIconAssignments = {
 				exts: [
 					'',
 					'txt',
-					'md'
+					'md',
 				],
 				names: [
 					'todo',
 					'tasks',
-					'plans'
+					'plans',
 				]
 			}
 		]
@@ -268,7 +268,7 @@ export const fileIcons: FileIconAssignments = {
 		names: [
 			'.gitignore',
 			'.gitattributes',
-			'.gitmodules'
+			'.gitmodules',
 		],
 		langs: [
 			'gitignore',
@@ -276,169 +276,169 @@ export const fileIcons: FileIconAssignments = {
 			'gitmodules',
 			'git-commit',
 			'git-rebase',
-			'scminput'
+			'scminput',
 		]
 	},
 	diff: {
 		exts: [
-			'diff'
+			'diff',
 		],
 		langs: [
-			'diff'
+			'diff',
 		]
 	},
 	docker: {
 		exts: [
-			'dockerfile'
+			'dockerfile',
 		],
 		langs: [
-			'dockerfile'
+			'dockerfile',
 		],
 		names: [
-			'Dockerfile'
+			'Dockerfile',
 		]
 	},
 	json: {
 		exts: [
 			'json',
-			'jsonc'
+			'jsonc',
 		],
 		langs: [
 			'json',
-			'jsonc'
+			'jsonc',
 		]
 	},
 	xml: {
 		exts: [
-			'xml'
+			'xml',
 		],
 		langs: [
-			'xml'
+			'xml',
 		],
 		names: [
-			'app.manifest'
+			'app.manifest',
 		]
 	},
 	yaml: {
 		exts: [
 			'yaml',
-			'yml'
+			'yml',
 		],
 		langs: [
-			'yaml'
+			'yaml',
 		],
 		names: [
 			'yarn.lock',
-			'.yarnrc'
+			'.yarnrc',
 		]
 	},
 	markdown: {
 		exts: [
-			'md'
+			'md',
 		],
 		langs: [
-			'markdown'
+			'markdown',
 		]
 	},
 	mdx: {
 		exts: [
-			'mdx'
+			'mdx',
 		],
 		langs: [
-			'mdx'
+			'mdx',
 		]
 	},
 	csv: {
 		exts: [
-			'csv'
+			'csv',
 		],
 		langs: [
-			'csv'
+			'csv',
 		]
 	},
 	toml: {
 		exts: [
-			'toml'
+			'toml',
 		],
 		langs: [
-			'toml'
+			'toml',
 		],
 		names: [
-			'Cargo.lock'
+			'Cargo.lock',
 		]
 	},
 	meml: {
 		exts: [
-			'meml'
+			'meml',
 		],
 		langs: [
-			'meml'
+			'meml',
 		]
 	},
 	hxml: {
 		exts: [
-			'hxml'
+			'hxml',
 		],
 		langs: [
-			'hxml'
+			'hxml',
 		]
 	},
 	html: {
 		exts: [
-			'html'
+			'html',
 		],
 		langs: [
-			'html'
+			'html',
 		]
 	},
 	css: {
 		exts: [
-			'css'
+			'css',
 		],
 		langs: [
-			'css'
+			'css',
 		]
 	},
 	scss: {
 		exts: [
 			'scss',
-			'sass'
+			'sass',
 		],
 		langs: [
-			'scss'
+			'scss',
 		]
 	},
 	less: {
 		exts: [
-			'less'
+			'less',
 		],
 		langs: [
-			'less'
+			'less',
 		]
 	},
 	javascript: {
 		exts: [
 			'js',
-			'cjs'
+			'cjs',
 		],
 		langs: [
-			'javascript'
+			'javascript',
 		]
 	},
 	typescript: {
 		exts: [
-			'ts'
+			'ts',
 		],
 		langs: [
-			'typescript'
+			'typescript',
 		]
 	},
 	webassembly: {
 		exts: [
-			'wasm'
+			'wasm',
 		],
 		langs: [
-			'webassembly'
+			'webassembly',
 		]
 	},
 	database: {
@@ -446,52 +446,55 @@ export const fileIcons: FileIconAssignments = {
 			'sql',
 			'http',
 			'rest',
-			'prisma'
+			'prisma',
+			'graphql',
+			'gql',
 		],
 		langs: [
 			'sql',
 			'http',
-			'prisma'
+			'prisma',
+			'graphql',
 		]
 	},
 	assembly: {
 		exts: [
 			'asm',
-			's'
+			's',
 		]
 	},
 	c: {
 		exts: [
-			'c'
+			'c',
 		],
 		langs: [
-			'c'
+			'c',
 		]
 	},
 	h: {
 		exts: [
-			'h'
+			'h',
 		]
 	},
 	cpp: {
 		exts: [
-			'cpp'
+			'cpp',
 		],
 		langs: [
-			'cpp'
+			'cpp',
 		]
 	},
 	hpp: {
 		exts: [
-			'hpp'
+			'hpp',
 		]
 	},
 	csharp: {
 		exts: [
-			'cs'
+			'cs',
 		],
 		langs: [
-			'csharp'
+			'csharp',
 		]
 	},
 	fsharp: {
@@ -499,204 +502,204 @@ export const fileIcons: FileIconAssignments = {
 			'fs',
 			'fsi',
 			'fsx',
-			'fsscript'
+			'fsscript',
 		],
 		langs: [
-			'fsharp'
+			'fsharp',
 		]
 	},
 	debug: {
 		exts: [
-			'pdb'
+			'pdb',
 		]
 	},
 	python: {
 		exts: [
-			'py'
+			'py',
 		],
 		langs: [
-			'python'
+			'python',
 		]
 	},
 	java: {
 		exts: [
-			'java'
+			'java',
 		],
 		langs: [
-			'java'
+			'java',
 		]
 	},
 	scala: {
 		exts: [
 			'scala',
 			'sc',
-			'sbt'
+			'sbt',
 		],
 		langs: [
-			'scala'
+			'scala',
 		]
 	},
 	kotlin: {
 		exts: [
 			'kotlin',
-			'kt'
+			'kt',
 		],
 		langs: [
-			'kotlin'
+			'kotlin',
 		]
 	},
 	lua: {
 		exts: [
-			'lua'
+			'lua',
 		],
 		langs: [
-			'lua'
+			'lua',
 		]
 	},
 	rust: {
 		exts: [
-			'rs'
+			'rs',
 		],
 		langs: [
-			'rust'
+			'rust',
 		]
 	},
 	r: {
 		exts: [
-			'r'
+			'r',
 		],
 		langs: [
-			'r'
+			'r',
 		]
 	},
 	ruby: {
 		exts: [
-			'rb'
+			'rb',
 		],
 		langs: [
-			'ruby'
+			'ruby',
 		]
 	},
 	go: {
 		exts: [
-			'go'
+			'go',
 		],
 		langs: [
-			'go'
+			'go',
 		]
 	},
 	perl: {
 		exts: [
 			'pm',
-			'pl'
+			'pl',
 		],
 		langs: [
-			'perl'
+			'perl',
 		]
 	},
 	haxe: {
 		exts: [
-			'hx'
+			'hx',
 		],
 		langs: [
-			'haxe'
+			'haxe',
 		]
 	},
 	elixir: {
 		exts: [
 			'ex',
-			'exs'
+			'exs',
 		],
 		langs: [
-			'elixir'
+			'elixir',
 		]
 	},
 	haskell: {
 		exts: [
 			'hs',
-			'lhs'
+			'lhs',
 		],
 		langs: [
-			'haskell'
+			'haskell',
 		]
 	},
 	julia: {
 		exts: [
-			'jl'
+			'jl',
 		],
 		langs: [
 			'julia',
-			'juliamarkdown'
+			'juliamarkdown',
 		]
 	},
 	jsx: {
 		exts: [
-			'jsx'
+			'jsx',
 		],
 		langs: [
-			'javascriptreact'
+			'javascriptreact',
 		]
 	},
 	tsx: {
 		exts: [
-			'tsx'
+			'tsx',
 		],
 		langs: [
-			'typescriptreact'
+			'typescriptreact',
 		]
 	},
 	dart: {
 		exts: [
-			'dart'
+			'dart',
 		],
 		langs: [
-			'dart'
+			'dart',
 		]
 	},
 	vue: {
 		exts: [
-			'vue'
+			'vue',
 		],
 		langs: [
-			'vue'
+			'vue',
 		]
 	},
 	nuxt: {
 		exts: [
-			'nuxt'
+			'nuxt',
 		],
 		langs: [
-			'nuxt'
+			'nuxt',
 		]
 	},
 	svelte: {
 		exts: [
-			'svelte'
+			'svelte',
 		],
 		langs: [
-			'svelte'
+			'svelte',
 		]
 	},
 	xhtml: {
 		exts: [
-			'xhtml'
+			'xhtml',
 		]
 	},
 	cshtml: {
 		exts: [
-			'cshtml'
+			'cshtml',
 		],
 		langs: [
 			'razor',
-			'aspnetcorerazor'
+			'aspnetcorerazor',
 		]
 	},
 	php: {
 		exts: [
-			'php'
+			'php',
 		],
 		langs: [
-			'php'
+			'php',
 		]
 	},
 	shader: {
@@ -708,38 +711,38 @@ export const fileIcons: FileIconAssignments = {
 			'tesc',
 			'tese',
 			'cg',
-			'sf'
+			'sf',
 		],
 		langs: [
 			'glsl',
 			'cg',
 			'hlsl',
-			'shaderlab'
+			'shaderlab',
 		]
 	},
 	shader_vertex: {
 		exts: [
 			'vert',
 			'vs',
-			'glslv'
+			'glslv',
 		]
 	},
 	shader_fragment: {
 		exts: [
 			'frag',
-			'glslf'
+			'glslf',
 		]
 	},
 	shader_geometry: {
 		exts: [
 			'geom',
 			'glslg',
-			'gs'
+			'gs',
 		]
 	},
 	shader_compute: {
 		exts: [
-			'comp'
+			'comp',
 		]
 	},
 	icon: {
@@ -748,10 +751,10 @@ export const fileIcons: FileIconAssignments = {
 				exts: [
 					'ico',
 					'png',
-					'svg'
+					'svg',
 				],
 				names: [
-					'favicon'
+					'favicon',
 				]
 			}
 		]
@@ -759,12 +762,12 @@ export const fileIcons: FileIconAssignments = {
 	aseprite: {
 		exts: [
 			'ase',
-			'aseprite'
+			'aseprite',
 		]
 	},
 	robot: {
 		names: [
-			'robots.txt'
+			'robots.txt',
 		]
 	}
 }

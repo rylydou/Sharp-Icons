@@ -8,7 +8,7 @@ import { dotFolders, dotFolders as dotfolders } from '../icons/dotFolders'
 export default function createThemes() {
 	console.log('--- creating themes ---')
 
-	let iconTheme: IconTheme = {
+	let theme: IconTheme = {
 		hidesExplorerArrows: true,
 		file: 'file',
 		folder: 'folder',
@@ -47,10 +47,10 @@ export default function createThemes() {
 	]
 
 	// add dotfolders
-	for (const dotfolder in dotfolders) {
-		iconTheme.folderNames[dotfolder] = 'dotfolder'
-		iconTheme.folderNamesExpanded[dotfolder] = 'dotfolder_open'
-	}
+	dotfolders.forEach((dotfolder) => {
+		theme.folderNames[dotfolder] = 'dotfolder'
+		theme.folderNamesExpanded[dotfolder] = 'dotfolder_open'
+	})
 
 	// add file icons
 	for (const fileIconId in fileIcons) {
@@ -59,35 +59,35 @@ export default function createThemes() {
 		usedIcons.push(fileIconId + '.svg')
 
 		// Generate extensions
-		for (const ext in fileIcon.exts) {
-			iconTheme.fileExtensions[ext] = fileIconId
-		}
+		fileIcon.exts?.forEach((ext) => {
+			theme.fileExtensions[ext] = fileIconId
+		})
 
 		// Generate languages
-		for (const lang in fileIcon.langs) {
-			iconTheme.languageIds[lang] = fileIconId
-		}
+		fileIcon.langs?.forEach((lang) => {
+			theme.languageIds[lang] = fileIconId
+		})
 
 		// Generate names
-		for (const name in fileIcon.names) {
-			iconTheme.fileNames[name] = fileIconId
-		}
+		fileIcon.names?.forEach((name) => {
+			theme.fileNames[name] = fileIconId
+		})
 
 		// Generate combo names
 		fileIcon.nameCombos?.forEach((combo) => {
-			for (const name in combo.names) {
-				for (const ext in combo.exts) {
+			combo.names.forEach((name) => {
+				combo.exts.forEach((ext) => {
 					if (ext.length == 0) {
-						iconTheme.fileNames[name] = fileIconId
+						theme.fileNames[name] = fileIconId
 					}
 					else {
-						iconTheme.fileNames[name + '.' + ext] = fileIconId
+						theme.fileNames[name + '.' + ext] = fileIconId
 					}
-				}
-			}
+				})
+			})
 		})
 
-		iconTheme.iconDefinitions[fileIconId] = { iconPath: iconPath }
+		theme.iconDefinitions[fileIconId] = { iconPath: iconPath }
 	}
 
 	const icons = fs.readdirSync('icons')
@@ -106,7 +106,17 @@ export default function createThemes() {
 
 	console.log('coloring icons...')
 
-	const iconThemeJson = JSON.stringify(iconTheme)
+	let themeNoFolder = { ...theme }
+	themeNoFolder.hidesExplorerArrows = false
+	themeNoFolder.folder = ''
+	themeNoFolder.folderExpanded = ''
+	themeNoFolder.rootFolder = ''
+	themeNoFolder.rootFolderExpanded = ''
+	themeNoFolder.folderNames = {}
+	themeNoFolder.folderNamesExpanded = {}
+
+	const themeJson = JSON.stringify(theme)
+	const themeNoFolderJson = JSON.stringify(themeNoFolder)
 
 	for (const paletteId in palettes) {
 		console.log('- ' + paletteId)
@@ -114,12 +124,10 @@ export default function createThemes() {
 		const palette = palettes[paletteId]
 
 		const iconThemeDirname = path.join('dist/', paletteId)
-		const iconThemeFilename = path.join(iconThemeDirname, 'icon-theme.json')
-		const fullPaletteId = paletteId === 'default' ? 'sharp-icons' : 'sharp-icons_' + paletteId
-		const fullDisplayName = 'Sharp Icons - ' + palette.displayName
 
 		fs.mkdirSync(path.join(iconThemeDirname, 'icons'), { recursive: true })
-		fs.writeFileSync(iconThemeFilename, iconThemeJson)
+		fs.writeFileSync(path.join(iconThemeDirname, 'normal.json'), themeJson)
+		fs.writeFileSync(path.join(iconThemeDirname, 'folderless.json'), themeNoFolderJson)
 
 		const icons = fs.readdirSync('icons')
 		for (const icon of icons) {

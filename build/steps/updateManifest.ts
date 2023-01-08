@@ -14,7 +14,7 @@ export default function updateManifest() {
 		const pallette = palettes[palletteId]
 
 		const iconThemeDirname = path.join('dist/', palletteId)
-		const iconThemeFilename = path.join(iconThemeDirname, 'icon-theme.json')
+		const iconThemeFilename = path.join(iconThemeDirname, 'normal.json')
 		const fullPalletteId = palletteId === 'default' ? 'sharp-icons' : 'sharp-icons_' + palletteId
 		const fullDisplayName = 'Sharp Icons - ' + pallette.displayName
 
@@ -22,6 +22,12 @@ export default function updateManifest() {
 			id: fullPalletteId,
 			label: fullDisplayName,
 			path: iconThemeFilename
+		}
+		packageJson.contributes.iconThemes.push(packageJsonEntry)
+		packageJsonEntry = {
+			id: fullPalletteId + '_folderless',
+			label: fullDisplayName + ' - No Folders',
+			path: path.join(iconThemeDirname, 'folderless.json')
 		}
 		packageJson.contributes.iconThemes.push(packageJsonEntry)
 	}

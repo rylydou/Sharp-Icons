@@ -9,6 +9,10 @@ export const palettes: PaletteList = {
 		displayName: "Default",
 		colors: ['#FF5252', '#EF652F', '#FFCC4A', '#8BC34A', '#42A5F5', '#A56FFF', '#A3B2BF', '#6C7780']
 	},
+	solarized: {
+		displayName: "Solarized",
+		colors: ['#dc322f', '#cb4b16', '#b58900', '#859900', '#268bd2', '#6c71c4', '#839496', '#657b83']
+	},
 	monokai: {
 		displayName: "Monokai",
 		colors: ['#F92672', '#FD971F', '#E6DB74', '#A6E22E', '#66D9EF', '#AE81FF', '#F8F8F2', '#75715E']
