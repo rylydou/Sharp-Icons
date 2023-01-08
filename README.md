@@ -1,6 +1,6 @@
 <!-- ![Sharp Icons](images/logo.png) -->
 
-![](images/readme/banner.svg)
+![](images/readme/banner.png)
 
 *And with more icons to come...*
 
