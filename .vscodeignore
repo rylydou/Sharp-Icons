@@ -11,8 +11,7 @@ vsc-extension-quickstart.md
 **/*.ts
 
 VSCE_PAT.txt
-CONTRIBUTING.md
-compile.js
-config.json
 bin/
+build/
+icons/
 node_modules/

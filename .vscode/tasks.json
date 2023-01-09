@@ -5,15 +5,16 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "start",
+			"script": "build",
+			"problemMatcher": "$tsc-watch",
+			"isBackground": true,
+			"presentation": {
+				"reveal": "never",
+			},
 			"group": {
 				"kind": "build",
 				"isDefault": true
-			},
-			"problemMatcher": [],
-			"label": "npm: start",
-			"isBackground": true,
-			"detail": "nodemon --watch src src/index.js"
+			}
 		}
 	]
 }

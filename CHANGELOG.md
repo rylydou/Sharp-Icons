@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.2.0]
+- Added palette swaps for icons - check them out!
+- Added a "folderless" variant for each theme
+- Added mdx icon [#10](https://github.com/CiberTurtle/Sharp-Icons/issues/10)
+- Gave graphql the database icon [#11](https://github.com/CiberTurtle/Sharp-Icons/issues/11)
+- Tweaked the markdown icon to match the other markup languages
+
 ## [1.1.10]
 
 - Added haxe icon

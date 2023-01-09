@@ -1,7 +1,7 @@
 {
 	"name": "sharp-icons",
 	"displayName": "Sharp Icons",
-	"version": "1.1.10",
+	"version": "1.2.0",
 	"preview": false,
 	"publisher": "CiberTurtle",
 	"description": "Sharp looking icons for vscode",
@@ -11,9 +11,12 @@
 	"homepage": "https://github.com/CiberTurtle/Sharp-Icons",
 	"license": "MIT",
 	"keywords": [
-		"Icons",
-		"Sharp",
-		"Crisp"
+		"icons",
+		"sharp",
+		"icon theme",
+		"customization",
+		"theme",
+		"file icons"
 	],
 	"categories": [
 		"Themes"
@@ -23,28 +26,134 @@
 		"theme": "dark"
 	},
 	"engines": {
-		"vscode": "^1.63.0"
+		"vscode": "^1.68.0"
+	},
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		},
+		"virtualWorkspaces": true
 	},
 	"contributes": {
 		"iconThemes": [
 			{
 				"id": "sharp-icons",
-				"label": "Sharp Icons",
-				"path": "./icon-theme.json"
+				"label": "Sharp Icons - Default",
+				"path": "dist/default/normal.json"
+			},
+			{
+				"id": "sharp-icons_folderless",
+				"label": "Sharp Icons - Default - No Folders",
+				"path": "dist/default/folderless.json"
+			},
+			{
+				"id": "sharp-icons_solarized",
+				"label": "Sharp Icons - Solarized",
+				"path": "dist/solarized/normal.json"
+			},
+			{
+				"id": "sharp-icons_solarized_folderless",
+				"label": "Sharp Icons - Solarized - No Folders",
+				"path": "dist/solarized/folderless.json"
+			},
+			{
+				"id": "sharp-icons_monokai",
+				"label": "Sharp Icons - Monokai",
+				"path": "dist/monokai/normal.json"
+			},
+			{
+				"id": "sharp-icons_monokai_folderless",
+				"label": "Sharp Icons - Monokai - No Folders",
+				"path": "dist/monokai/folderless.json"
+			},
+			{
+				"id": "sharp-icons_monokai_pro",
+				"label": "Sharp Icons - Monokai Pro",
+				"path": "dist/monokai_pro/normal.json"
+			},
+			{
+				"id": "sharp-icons_monokai_pro_folderless",
+				"label": "Sharp Icons - Monokai Pro - No Folders",
+				"path": "dist/monokai_pro/folderless.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox",
+				"label": "Sharp Icons - Gruvbox",
+				"path": "dist/gruvbox/normal.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox_folderless",
+				"label": "Sharp Icons - Gruvbox - No Folders",
+				"path": "dist/gruvbox/folderless.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox_faded",
+				"label": "Sharp Icons - Gruvbox Faded",
+				"path": "dist/gruvbox_faded/normal.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox_faded_folderless",
+				"label": "Sharp Icons - Gruvbox Faded - No Folders",
+				"path": "dist/gruvbox_faded/folderless.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox_bright",
+				"label": "Sharp Icons - Gruvbox Bright",
+				"path": "dist/gruvbox_bright/normal.json"
+			},
+			{
+				"id": "sharp-icons_gruvbox_bright_folderless",
+				"label": "Sharp Icons - Gruvbox Bright - No Folders",
+				"path": "dist/gruvbox_bright/folderless.json"
+			},
+			{
+				"id": "sharp-icons_adwaita",
+				"label": "Sharp Icons - Adwaita",
+				"path": "dist/adwaita/normal.json"
+			},
+			{
+				"id": "sharp-icons_adwaita_folderless",
+				"label": "Sharp Icons - Adwaita - No Folders",
+				"path": "dist/adwaita/folderless.json"
+			},
+			{
+				"id": "sharp-icons_ios_light",
+				"label": "Sharp Icons - iOS Light",
+				"path": "dist/ios_light/normal.json"
+			},
+			{
+				"id": "sharp-icons_ios_light_folderless",
+				"label": "Sharp Icons - iOS Light - No Folders",
+				"path": "dist/ios_light/folderless.json"
+			},
+			{
+				"id": "sharp-icons_ios_dark",
+				"label": "Sharp Icons - iOS Dark",
+				"path": "dist/ios_dark/normal.json"
+			},
+			{
+				"id": "sharp-icons_ios_dark_folderless",
+				"label": "Sharp Icons - iOS Dark - No Folders",
+				"path": "dist/ios_dark/folderless.json"
 			}
 		]
 	},
 	"scripts": {
-		"start": "nodemon -w config.json compile.js",
-		"compile": "node compile.js",
-		"package": "npm run compile && mkdir -p bin && vsce package -o bin",
-		"release": "npm run compile && vsce publish"
+		"build": "npx ts-node build",
+		"package": "npm run build && mkdir -p bin && vsce package -o bin",
+		"release": "npm run build && vsce publish"
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.15",
-		"vsce": "^2.9.1"
-	},
-	"publishConfig": {
-		"access": "public"
+		"@types/node": "^16.18.11",
+		"@types/sharp": "^0.31.1",
+		"sharp": "^0.31.3",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.9.4",
+		"vsce": "^2.15.0",
+		"xmlbuilder2": "^3.0.2"
 	}
 }
