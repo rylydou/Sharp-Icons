@@ -1,9 +1,0 @@
-<svg width="864" height="128" viewBox="0 0 864 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-	<style>
-		text {
-		font: bold 30px sans-serif;
-		}
-	</style>
-
-	<text x="16" y="15" fill="red">I love SVG!</text>
-</svg>
