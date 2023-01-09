@@ -1,10 +1,8 @@
-<!-- ![Sharp Icons](images/logo.png) -->
+![Banner Image: #Icons](images/readme/banner.png)
 
-![](images/readme/banner.png)
+![Listing of icons](images/readme/listing.png)
 
-*And with more icons to come...*
-
-[Is your favorite language missing?](https://github.com/CiberTurtle/Sharp-Icons/issues/new/choose)
+*And with more icons to come...* [Is your favorite language missing?](https://github.com/CiberTurtle/Sharp-Icons/issues/new/choose)
 
 ---
 
