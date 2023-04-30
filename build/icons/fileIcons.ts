@@ -42,6 +42,7 @@ export const fileIcons: FileIconAssignments = {
 			'gif',
 			'psd',
 			'xcf',
+			'webp',
 		]
 	},
 	svg: {
@@ -57,6 +58,7 @@ export const fileIcons: FileIconAssignments = {
 			'mp3',
 			'ogg',
 			'wav',
+			'weba',
 		]
 	},
 	video: {

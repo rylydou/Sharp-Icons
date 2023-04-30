@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.2.1]
+- Removed messy waves from elixir icon
+- Assigned icons for `.webp` and `.weba`
+
 ## [1.2.0]
 - Added palette swaps for icons - check them out!
 - Added a "folderless" variant for each theme
