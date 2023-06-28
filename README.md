@@ -6,8 +6,11 @@ This theme is meant to be a less blurry and sharper alternitive to the popular [
 	<summary>
 		Here's a boring technical explanation on why these icons are not blurry.
 	</summary>
+	<br/>
 	The file icons in vscode are `16px`. In other themes the icons are `24px` which means they get scaled down to `16px` by vscode and are made blurry as a result. These icons are designed at `16px` which mean no scaling is done by vscode and the icons remain sharp.
 </details>
+
+<br/>
 
 There are many themes to match themes such as Solarized, Gruvbox and Monokai. Each theme also has a "folderless" variant if you prefer the arrows in the default vscode theme.
 

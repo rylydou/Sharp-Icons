@@ -607,6 +607,14 @@ export const fileIcons: FileIconAssignments = {
 			'haxe',
 		]
 	},
+	solidity: {
+		exts: [
+			'sol',
+		],
+		langs: [
+			'solidity',
+		]
+	},
 	elixir: {
 		exts: [
 			'ex',

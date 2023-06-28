@@ -9,6 +9,10 @@ export const palettes: PaletteList = {
 		displayName: "Default",
 		colors: ['#FF5252', '#EF652F', '#FFCC4A', '#8BC34A', '#42A5F5', '#A56FFF', '#A3B2BF', '#6C7780']
 	},
+	monochrome: {
+		displayName: "Monochrome",
+		colors: ['#808080', '#808080', '#808080', '#808080', '#808080', '#808080', '#808080', '#808080']
+	},
 	solarized: {
 		displayName: "Solarized",
 		colors: ['#dc322f', '#cb4b16', '#b58900', '#859900', '#268bd2', '#6c71c4', '#839496', '#657b83']

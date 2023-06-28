@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.2.2]
+- Added monochrome theme
+- Added solidarity
+- Make a custom icon for svelte instead of using the official one like before
+- Updated README
+
 ## [1.2.1]
 - Removed messy waves from elixir icon
 - Assigned icons for `.webp` and `.weba`
