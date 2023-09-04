@@ -178,10 +178,16 @@ export const fileIcons: FileIconAssignments = {
 	config: {
 		exts: [
 			'ini',
+			'tres',
+			'tscn',
+			'import',
+			'gdns',
+			'gdnlib',
 		],
 		langs: [
 			'ini',
 			'properties',
+			'gdresource',
 		],
 		names: [
 			'.editorconfig',
@@ -615,6 +621,15 @@ export const fileIcons: FileIconAssignments = {
 			'solidity',
 		]
 	},
+	godot: {
+		exts: [
+			'gd',
+			'godot',
+		],
+		langs: [
+			'gdscript',
+		]
+	},
 	elixir: {
 		exts: [
 			'ex',
@@ -722,12 +737,14 @@ export const fileIcons: FileIconAssignments = {
 			'tese',
 			'cg',
 			'sf',
+			'gdshader',
 		],
 		langs: [
 			'glsl',
 			'cg',
 			'hlsl',
 			'shaderlab',
+			'gdshader',
 		]
 	},
 	shader_vertex: {

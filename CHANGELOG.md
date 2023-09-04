@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.2.3]
+- Added godot icon
+- Assigned icons for godot related files
+
 ## [1.2.2]
 - Added monochrome theme
 - Added solidarity
