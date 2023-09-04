@@ -10,8 +10,12 @@ vsc-extension-quickstart.md
 **/*.map
 **/*.ts
 
-VSCE_PAT.txt
 bin/
 build/
 icons/
 node_modules/
+icons/
+
+.gitignore
+pnpm-lock.yaml
+tsconfig.json

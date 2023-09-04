@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.2.5]
+- Tweaked godot icon assignment
+
+## [1.2.4]
+- Hotfix
+
 ## [1.2.3]
 - Added godot icon
 - Assigned icons for godot related files

@@ -8,9 +8,12 @@ export const fileIcons: FileIconAssignments = {
 	plaintext: {
 		exts: [
 			'txt',
+			'tres',
+			'gdns',
 		],
 		langs: [
 			'plaintext',
+			'godot-resource',
 		]
 	},
 	richtext: {
@@ -80,6 +83,8 @@ export const fileIcons: FileIconAssignments = {
 			'fbx',
 			'3d-objects',
 			'x3d-object',
+			'tscn',
+			'escn',
 		]
 	},
 	font: {
@@ -178,16 +183,16 @@ export const fileIcons: FileIconAssignments = {
 	config: {
 		exts: [
 			'ini',
-			'tres',
-			'tscn',
 			'import',
-			'gdns',
 			'gdnlib',
+			'tet',
+			'remap',
 		],
 		langs: [
 			'ini',
 			'properties',
 			'gdresource',
+			'godot-asset',
 		],
 		names: [
 			'.editorconfig',
@@ -625,9 +630,11 @@ export const fileIcons: FileIconAssignments = {
 		exts: [
 			'gd',
 			'godot',
+			'gdignore',
 		],
 		langs: [
 			'gdscript',
+			'godot-project',
 		]
 	},
 	elixir: {
@@ -738,6 +745,7 @@ export const fileIcons: FileIconAssignments = {
 			'cg',
 			'sf',
 			'gdshader',
+			'gdshaderinc',
 		],
 		langs: [
 			'glsl',
@@ -745,6 +753,7 @@ export const fileIcons: FileIconAssignments = {
 			'hlsl',
 			'shaderlab',
 			'gdshader',
+			'godot-shader',
 		]
 	},
 	shader_vertex: {
