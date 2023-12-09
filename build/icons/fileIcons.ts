@@ -805,5 +805,13 @@ export const fileIcons: FileIconAssignments = {
 		names: [
 			'robots.txt',
 		]
+	},
+	odin: {
+		exts: [
+			"odin"
+		],
+		langs: [
+			"odin"
+		],
 	}
 }

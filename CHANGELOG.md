@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.2.6]
+- Added Odin icon
+
 ## [1.2.5]
 - Tweaked godot icon assignment
 
