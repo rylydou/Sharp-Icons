@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.2.7]
+- Added Angular icon
+- Switched to bun
+
 ## [1.2.6]
 - Added Odin icon
 

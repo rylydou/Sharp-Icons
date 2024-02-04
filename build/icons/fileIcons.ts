@@ -712,6 +712,17 @@ export const fileIcons: FileIconAssignments = {
 			'svelte',
 		]
 	},
+	angular: {
+		exts: [
+			'angular',
+			'component.html',
+			'component.js',
+			'component.ts',
+		],
+		langs: [
+			'angular',
+		]
+	},
 	xhtml: {
 		exts: [
 			'xhtml',
