@@ -479,6 +479,12 @@ export const fileIcons: FileIconAssignments = {
 			'prisma',
 			'graphql',
 			'gql',
+			'pg',
+			'postgres',
+			'mysql',
+			'sqlite',
+			'libsql',
+			'rdb',
 		],
 		langs: [
 			'sql',

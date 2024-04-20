@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.2.9]
+- Add more database icons
+
 ## [1.2.8]
 - Added lockfile icons.
 - Assigned database icon to `.db` files.
