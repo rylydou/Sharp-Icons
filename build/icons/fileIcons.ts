@@ -180,6 +180,22 @@ export const fileIcons: FileIconAssignments = {
 			'gradlew',
 		]
 	},
+	lock: {
+		exts: [
+			'lockb',
+		],
+		langs: [
+			'go.sum',
+		],
+		names: [
+			'package-lock.json',
+			'pnpm-lock.yaml',
+			'yarn.lock',
+			'bun.lockb',
+			'go.sum',
+			'cargo.lock',
+		]
+	},
 	config: {
 		exts: [
 			'ini',
@@ -456,6 +472,7 @@ export const fileIcons: FileIconAssignments = {
 	},
 	database: {
 		exts: [
+			'db',
 			'sql',
 			'http',
 			'rest',
@@ -597,8 +614,14 @@ export const fileIcons: FileIconAssignments = {
 		exts: [
 			'go',
 		],
+		names: [
+			'go.mod',
+			'go.work',
+		],
 		langs: [
 			'go',
+			'go.mod',
+			'go.work',
 		]
 	},
 	perl: {

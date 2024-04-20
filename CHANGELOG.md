@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.2.8]
+- Added lockfile icons.
+- Assigned database icon to `.db` files.
+- Tweaked icons for GO.
+
 ## [1.2.7]
 - Added Angular icon
 - Switched to bun
