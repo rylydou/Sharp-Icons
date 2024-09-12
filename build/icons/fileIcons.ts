@@ -1,232 +1,232 @@
-import { FileIcon } from '../models/fileIcon'
+import { FileIcon } from "../models/fileIcon";
 
 interface FileIconAssignments {
-	[key: string]: FileIcon
+	[key: string]: FileIcon;
 }
 
 export const fileIcons: FileIconAssignments = {
 	plaintext: {
 		exts: [
-			'txt',
-			'tres',
-			'gdns',
+			"txt",
+			"tres",
+			"gdns",
 		],
 		langs: [
-			'plaintext',
-			'godot-resource',
+			"plaintext",
+			"godot-resource",
 		]
 	},
 	richtext: {
 		exts: [
-			'rtf',
-			'pdf',
-			'docx',
-			'doc',
-			'gdoc',
-			'odt',
-			'sxw',
+			"rtf",
+			"pdf",
+			"docx",
+			"doc",
+			"gdoc",
+			"odt",
+			"sxw",
 		]
 	},
 	log: {
 		exts: [
-			'log',
+			"log",
 		],
 		langs: [
-			'log',
+			"log",
 		]
 	},
 	image: {
 		exts: [
-			'png',
-			'jpg',
-			'jpeg',
-			'bmp',
-			'ico',
-			'gif',
-			'psd',
-			'xcf',
-			'webp',
+			"png",
+			"jpg",
+			"jpeg",
+			"bmp",
+			"ico",
+			"gif",
+			"psd",
+			"xcf",
+			"webp",
 		]
 	},
 	svg: {
 		exts: [
-			'svg',
+			"svg",
 		]
 	},
 	audio: {
 		exts: [
-			'aiff',
-			'alac',
-			'flac',
-			'mp3',
-			'ogg',
-			'wav',
-			'weba',
+			"aiff",
+			"alac",
+			"flac",
+			"mp3",
+			"ogg",
+			"wav",
+			"weba",
 		]
 	},
 	video: {
 		exts: [
-			'webm',
-			'mkv',
-			'avi',
-			'mov',
-			'mp4',
+			"webm",
+			"mkv",
+			"avi",
+			"mov",
+			"mp4",
 		]
 	},
 	model: {
 		exts: [
-			'blend',
-			'block',
-			'c4d',
-			'stl',
-			'obj',
-			'fbx',
-			'3d-objects',
-			'x3d-object',
-			'tscn',
-			'escn',
+			"blend",
+			"block",
+			"c4d",
+			"stl",
+			"obj",
+			"fbx",
+			"3d-objects",
+			"x3d-object",
+			"tscn",
+			"escn",
 		]
 	},
 	font: {
 		exts: [
-			'ttf',
-			'ttc',
-			'otf',
-			'woff',
-			'woff2',
+			"ttf",
+			"ttc",
+			"otf",
+			"woff",
+			"woff2",
 		]
 	},
 	archive: {
 		exts: [
-			'7z',
-			'zip',
-			'rar',
-			'001',
-			'cab',
-			'iso',
-			'xz',
-			'txz',
-			'lzma',
-			'tar',
-			'cpio',
-			'bz2',
-			'barchive2',
-			'tvz2',
-			'tvz',
-			'gz',
-			'garchive',
-			'tgz',
-			'tpz',
-			'z',
-			'taz',
-			'lzh',
-			'lza',
-			'rpm',
-			'deb',
-			'arj',
-			'vhd',
-			'wim',
-			'swm',
-			'fat',
-			'ntfs',
-			'dmg',
-			'hfs',
-			'xar',
-			'squashfs',
-			'vsix',
+			"7z",
+			"zip",
+			"rar",
+			"001",
+			"cab",
+			"iso",
+			"xz",
+			"txz",
+			"lzma",
+			"tar",
+			"cpio",
+			"bz2",
+			"barchive2",
+			"tvz2",
+			"tvz",
+			"gz",
+			"garchive",
+			"tgz",
+			"tpz",
+			"z",
+			"taz",
+			"lzh",
+			"lza",
+			"rpm",
+			"deb",
+			"arj",
+			"vhd",
+			"wim",
+			"swm",
+			"fat",
+			"ntfs",
+			"dmg",
+			"hfs",
+			"xar",
+			"squashfs",
+			"vsix",
 		]
 	},
 	object: {
 		exts: [
-			'dll',
-			'so',
-			'o',
-			'elf',
-			'dylib',
-			'bundle',
-			'jar',
-			'class',
+			"dll",
+			"so",
+			"o",
+			"elf",
+			"dylib",
+			"bundle",
+			"jar",
+			"class",
 		]
 	},
 	bin: {
 		exts: [
-			'bin',
-			'dat',
+			"bin",
+			"dat",
 		]
 	},
 	app: {
 		exts: [
-			'exe',
-			'app',
+			"exe",
+			"app",
 		]
 	},
 	script: {
 		exts: [
-			'bat',
-			'ps1',
-			'bash',
-			'sh',
-			'cmd',
-			'zsh',
-			'fish',
-			'gradle',
+			"bat",
+			"ps1",
+			"bash",
+			"sh",
+			"cmd",
+			"zsh",
+			"fish",
+			"gradle",
 		],
 		langs: [
-			'bat',
-			'powershell',
-			'shellscript',
+			"bat",
+			"powershell",
+			"shellscript",
 		],
 		names: [
-			'gradlew',
+			"gradlew",
 		]
 	},
 	lock: {
 		exts: [
-			'lockb',
+			"lockb",
 		],
 		langs: [
-			'go.sum',
+			"go.sum",
 		],
 		names: [
-			'package-lock.json',
-			'pnpm-lock.yaml',
-			'yarn.lock',
-			'bun.lockb',
-			'go.sum',
-			'cargo.lock',
+			"package-lock.json",
+			"pnpm-lock.yaml",
+			"yarn.lock",
+			"bun.lockb",
+			"go.sum",
+			"cargo.lock",
 		]
 	},
 	config: {
 		exts: [
-			'ini',
-			'import',
-			'gdnlib',
-			'tet',
-			'remap',
+			"ini",
+			"import",
+			"gdnlib",
+			"tet",
+			"remap",
 		],
 		langs: [
-			'ini',
-			'properties',
-			'gdresource',
-			'godot-asset',
+			"ini",
+			"properties",
+			"gdresource",
+			"godot-asset",
 		],
 		names: [
-			'.editorconfig',
-			'.vscodeignore',
-			'.prettierignore',
-			'.eslintignore',
+			".editorconfig",
+			".vscodeignore",
+			".prettierignore",
+			".eslintignore",
 		]
 	},
 	readme: {
 		nameCombos: [
 			{
 				exts: [
-					'',
-					'txt',
-					'md',
+					"",
+					"txt",
+					"md",
 				],
 				names: [
-					'readme',
+					"readme",
 				]
 			}
 		]
@@ -235,29 +235,29 @@ export const fileIcons: FileIconAssignments = {
 		nameCombos: [
 			{
 				exts: [
-					'',
-					'txt',
-					'md',
+					"",
+					"txt",
+					"md",
 				],
 				names: [
-					'changelog',
-					'history',
-					'news',
-					'releases',
-					'contributing',
-					'support',
-					'contributors',
-					'authors',
-					'acknowledgments',
-					'code_of_conduct',
-					'eula',
-					'issue_template',
-					'pull-request-template',
-					'codeowners',
-					'install',
-					'building',
-					'governance',
-					'security',
+					"changelog",
+					"history",
+					"news",
+					"releases",
+					"contributing",
+					"support",
+					"contributors",
+					"authors",
+					"acknowledgments",
+					"code_of_conduct",
+					"eula",
+					"issue_template",
+					"pull-request-template",
+					"codeowners",
+					"install",
+					"building",
+					"governance",
+					"security",
 				]
 			}
 		]
@@ -266,13 +266,13 @@ export const fileIcons: FileIconAssignments = {
 		nameCombos: [
 			{
 				exts: [
-					'',
-					'txt',
-					'md',
+					"",
+					"txt",
+					"md",
 				],
 				names: [
-					'license',
-					'copying',
+					"license",
+					"copying",
 				]
 			}
 		]
@@ -281,569 +281,580 @@ export const fileIcons: FileIconAssignments = {
 		nameCombos: [
 			{
 				exts: [
-					'',
-					'txt',
-					'md',
+					"",
+					"txt",
+					"md",
 				],
 				names: [
-					'todo',
-					'tasks',
-					'plans',
+					"todo",
+					"tasks",
+					"plans",
 				]
 			}
 		]
 	},
 	git: {
 		names: [
-			'.gitignore',
-			'.gitattributes',
-			'.gitmodules',
+			".gitignore",
+			".gitattributes",
+			".gitmodules",
 		],
 		langs: [
-			'gitignore',
-			'gitattributes',
-			'gitmodules',
-			'git-commit',
-			'git-rebase',
-			'scminput',
+			"gitignore",
+			"gitattributes",
+			"gitmodules",
+			"git-commit",
+			"git-rebase",
+			"scminput",
 		]
 	},
 	diff: {
 		exts: [
-			'diff',
+			"diff",
 		],
 		langs: [
-			'diff',
+			"diff",
 		]
 	},
 	docker: {
 		exts: [
-			'dockerfile',
+			"dockerfile",
 		],
 		langs: [
-			'dockerfile',
+			"dockerfile",
 		],
 		names: [
-			'Dockerfile',
+			"Dockerfile",
+		]
+	},
+	tools: {
+		exts: [
+			"cmake",
+		],
+		langs: [
+			"makefile",
+		],
+		names: [
+			"Makefile",
 		]
 	},
 	json: {
 		exts: [
-			'json',
-			'jsonc',
+			"json",
+			"jsonc",
 		],
 		langs: [
-			'json',
-			'jsonc',
+			"json",
+			"jsonc",
 		]
 	},
 	xml: {
 		exts: [
-			'xml',
+			"xml",
 		],
 		langs: [
-			'xml',
+			"xml",
 		],
 		names: [
-			'app.manifest',
+			"app.manifest",
 		]
 	},
 	yaml: {
 		exts: [
-			'yaml',
-			'yml',
+			"yaml",
+			"yml",
 		],
 		langs: [
-			'yaml',
+			"yaml",
 		],
 		names: [
-			'yarn.lock',
-			'.yarnrc',
+			"yarn.lock",
+			".yarnrc",
 		]
 	},
 	markdown: {
 		exts: [
-			'md',
+			"md",
 		],
 		langs: [
-			'markdown',
+			"markdown",
 		]
 	},
 	mdx: {
 		exts: [
-			'mdx',
+			"mdx",
 		],
 		langs: [
-			'mdx',
+			"mdx",
 		]
 	},
 	csv: {
 		exts: [
-			'csv',
+			"csv",
 		],
 		langs: [
-			'csv',
+			"csv",
 		]
 	},
 	toml: {
 		exts: [
-			'toml',
+			"toml",
 		],
 		langs: [
-			'toml',
+			"toml",
 		],
 		names: [
-			'Cargo.lock',
+			"Cargo.lock",
 		]
 	},
 	meml: {
 		exts: [
-			'meml',
+			"meml",
 		],
 		langs: [
-			'meml',
+			"meml",
 		]
 	},
 	hxml: {
 		exts: [
-			'hxml',
+			"hxml",
 		],
 		langs: [
-			'hxml',
+			"hxml",
 		]
 	},
 	html: {
 		exts: [
-			'html',
+			"html",
 		],
 		langs: [
-			'html',
+			"html",
 		]
 	},
 	css: {
 		exts: [
-			'css',
+			"css",
 		],
 		langs: [
-			'css',
+			"css",
 		]
 	},
 	scss: {
 		exts: [
-			'scss',
-			'sass',
+			"scss",
+			"sass",
 		],
 		langs: [
-			'scss',
+			"scss",
 		]
 	},
 	less: {
 		exts: [
-			'less',
+			"less",
 		],
 		langs: [
-			'less',
+			"less",
 		]
 	},
 	javascript: {
 		exts: [
-			'js',
-			'cjs',
+			"js",
+			"cjs",
 		],
 		langs: [
-			'javascript',
+			"javascript",
 		]
 	},
 	typescript: {
 		exts: [
-			'ts',
+			"ts",
 		],
 		langs: [
-			'typescript',
+			"typescript",
 		]
 	},
 	webassembly: {
 		exts: [
-			'wasm',
+			"wasm",
 		],
 		langs: [
-			'webassembly',
+			"webassembly",
 		]
 	},
 	database: {
 		exts: [
-			'db',
-			'sql',
-			'http',
-			'rest',
-			'prisma',
-			'graphql',
-			'gql',
-			'pg',
-			'postgres',
-			'mysql',
-			'sqlite',
-			'libsql',
-			'rdb',
+			"db",
+			"sql",
+			"http",
+			"rest",
+			"prisma",
+			"graphql",
+			"gql",
+			"pg",
+			"postgres",
+			"mysql",
+			"sqlite",
+			"libsql",
+			"rdb",
 		],
 		langs: [
-			'sql',
-			'http',
-			'prisma',
-			'graphql',
+			"sql",
+			"http",
+			"prisma",
+			"graphql",
 		]
 	},
 	assembly: {
 		exts: [
-			'asm',
-			's',
+			"asm",
+			"s",
 		]
 	},
 	c: {
 		exts: [
-			'c',
+			"c",
 		],
 		langs: [
-			'c',
+			"c",
 		]
 	},
 	h: {
 		exts: [
-			'h',
+			"h",
 		]
 	},
 	cpp: {
 		exts: [
-			'cpp',
+			"cpp",
 		],
 		langs: [
-			'cpp',
+			"cpp",
 		]
 	},
 	hpp: {
 		exts: [
-			'hpp',
+			"hpp",
 		]
 	},
 	csharp: {
 		exts: [
-			'cs',
+			"cs",
 		],
 		langs: [
-			'csharp',
+			"csharp",
 		]
 	},
 	fsharp: {
 		exts: [
-			'fs',
-			'fsi',
-			'fsx',
-			'fsscript',
+			"fs",
+			"fsi",
+			"fsx",
+			"fsscript",
 		],
 		langs: [
-			'fsharp',
+			"fsharp",
 		]
 	},
 	debug: {
 		exts: [
-			'pdb',
+			"pdb",
 		]
 	},
 	python: {
 		exts: [
-			'py',
+			"py",
 		],
 		langs: [
-			'python',
+			"python",
 		]
 	},
 	java: {
 		exts: [
-			'java',
+			"java",
 		],
 		langs: [
-			'java',
+			"java",
 		]
 	},
 	scala: {
 		exts: [
-			'scala',
-			'sc',
-			'sbt',
+			"scala",
+			"sc",
+			"sbt",
 		],
 		langs: [
-			'scala',
+			"scala",
 		]
 	},
 	kotlin: {
 		exts: [
-			'kotlin',
-			'kt',
+			"kotlin",
+			"kt",
 		],
 		langs: [
-			'kotlin',
+			"kotlin",
 		]
 	},
 	lua: {
 		exts: [
-			'lua',
+			"lua",
 		],
 		langs: [
-			'lua',
+			"lua",
 		]
 	},
 	rust: {
 		exts: [
-			'rs',
+			"rs",
 		],
 		langs: [
-			'rust',
+			"rust",
 		]
 	},
 	r: {
 		exts: [
-			'r',
+			"r",
 		],
 		langs: [
-			'r',
+			"r",
 		]
 	},
 	ruby: {
 		exts: [
-			'rb',
+			"rb",
 		],
 		langs: [
-			'ruby',
+			"ruby",
 		]
 	},
 	go: {
 		exts: [
-			'go',
+			"go",
 		],
 		names: [
-			'go.mod',
-			'go.work',
+			"go.mod",
+			"go.work",
 		],
 		langs: [
-			'go',
-			'go.mod',
-			'go.work',
+			"go",
+			"go.mod",
+			"go.work",
 		]
 	},
 	perl: {
 		exts: [
-			'pm',
-			'pl',
+			"pm",
+			"pl",
 		],
 		langs: [
-			'perl',
+			"perl",
 		]
 	},
 	haxe: {
 		exts: [
-			'hx',
+			"hx",
 		],
 		langs: [
-			'haxe',
+			"haxe",
 		]
 	},
 	solidity: {
 		exts: [
-			'sol',
+			"sol",
 		],
 		langs: [
-			'solidity',
+			"solidity",
 		]
 	},
 	godot: {
 		exts: [
-			'gd',
-			'godot',
-			'gdignore',
+			"gd",
+			"godot",
+			"gdignore",
 		],
 		langs: [
-			'gdscript',
-			'godot-project',
+			"gdscript",
+			"godot-project",
 		]
 	},
 	elixir: {
 		exts: [
-			'ex',
-			'exs',
+			"ex",
+			"exs",
 		],
 		langs: [
-			'elixir',
+			"elixir",
 		]
 	},
 	haskell: {
 		exts: [
-			'hs',
-			'lhs',
+			"hs",
+			"lhs",
 		],
 		langs: [
-			'haskell',
+			"haskell",
 		]
 	},
 	julia: {
 		exts: [
-			'jl',
+			"jl",
 		],
 		langs: [
-			'julia',
-			'juliamarkdown',
+			"julia",
+			"juliamarkdown",
 		]
 	},
 	jsx: {
 		exts: [
-			'jsx',
+			"jsx",
 		],
 		langs: [
-			'javascriptreact',
+			"javascriptreact",
 		]
 	},
 	tsx: {
 		exts: [
-			'tsx',
+			"tsx",
 		],
 		langs: [
-			'typescriptreact',
+			"typescriptreact",
 		]
 	},
 	dart: {
 		exts: [
-			'dart',
+			"dart",
 		],
 		langs: [
-			'dart',
+			"dart",
 		]
 	},
 	vue: {
 		exts: [
-			'vue',
+			"vue",
 		],
 		langs: [
-			'vue',
+			"vue",
 		]
 	},
 	nuxt: {
 		exts: [
-			'nuxt',
+			"nuxt",
 		],
 		langs: [
-			'nuxt',
+			"nuxt",
 		]
 	},
 	svelte: {
 		exts: [
-			'svelte',
+			"svelte",
 		],
 		langs: [
-			'svelte',
+			"svelte",
 		]
 	},
 	angular: {
 		exts: [
-			'angular',
-			'component.html',
-			'component.js',
-			'component.ts',
+			"angular",
+			"component.html",
+			"component.js",
+			"component.ts",
 		],
 		langs: [
-			'angular',
+			"angular",
 		]
 	},
 	xhtml: {
 		exts: [
-			'xhtml',
+			"xhtml",
 		]
 	},
 	cshtml: {
 		exts: [
-			'cshtml',
+			"cshtml",
 		],
 		langs: [
-			'razor',
-			'aspnetcorerazor',
+			"razor",
+			"aspnetcorerazor",
 		]
 	},
 	php: {
 		exts: [
-			'php',
+			"php",
 		],
 		langs: [
-			'php',
+			"php",
 		]
 	},
 	shader: {
 		exts: [
-			'glsl',
-			'essl',
-			'hlsl',
-			'fx',
-			'tesc',
-			'tese',
-			'cg',
-			'sf',
-			'gdshader',
-			'gdshaderinc',
+			"glsl",
+			"essl",
+			"hlsl",
+			"fx",
+			"tesc",
+			"tese",
+			"cg",
+			"sf",
+			"gdshader",
+			"gdshaderinc",
 		],
 		langs: [
-			'glsl',
-			'cg',
-			'hlsl',
-			'shaderlab',
-			'gdshader',
-			'godot-shader',
+			"glsl",
+			"cg",
+			"hlsl",
+			"shaderlab",
+			"gdshader",
+			"godot-shader",
 		]
 	},
 	shader_vertex: {
 		exts: [
-			'vert',
-			'vs',
-			'glslv',
+			"vert",
+			"vs",
+			"glslv",
 		]
 	},
 	shader_fragment: {
 		exts: [
-			'frag',
-			'glslf',
+			"frag",
+			"glslf",
 		]
 	},
 	shader_geometry: {
 		exts: [
-			'geom',
-			'glslg',
-			'gs',
+			"geom",
+			"glslg",
+			"gs",
 		]
 	},
 	shader_compute: {
 		exts: [
-			'comp',
+			"comp",
 		]
 	},
 	icon: {
 		nameCombos: [
 			{
 				exts: [
-					'ico',
-					'png',
-					'svg',
+					"ico",
+					"png",
+					"svg",
 				],
 				names: [
-					'favicon',
+					"favicon",
 				]
 			}
 		]
 	},
 	aseprite: {
 		exts: [
-			'ase',
-			'aseprite',
+			"ase",
+			"aseprite",
 		]
 	},
 	robot: {
 		names: [
-			'robots.txt',
+			"robots.txt",
 		]
 	},
 	odin: {
@@ -854,4 +865,4 @@ export const fileIcons: FileIconAssignments = {
 			"odin"
 		],
 	}
-}
+};
