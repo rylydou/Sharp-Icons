@@ -1,4 +1,4 @@
 export interface Palette {
-	displayName: string
-	colors: string[]
+	displayName: string;
+	colors: string[];
 }

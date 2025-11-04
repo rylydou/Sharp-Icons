@@ -5,4 +5,4 @@ export const dotFolders: string[] = [
 	'.github',
 	'.yarn',
 	'.devcontainer'
-]
+];

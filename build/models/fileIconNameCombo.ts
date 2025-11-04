@@ -1,4 +1,4 @@
 export interface FileIconNameCombo {
-	exts: string[]
-	names: string[]
+	exts: string[];
+	names: string[];
 }

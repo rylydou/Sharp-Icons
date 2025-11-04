@@ -62,6 +62,8 @@ export const fileIcons: FileIconAssignments = {
 			"ogg",
 			"wav",
 			"weba",
+			"bank",
+			"strings.bank",
 		]
 	},
 	video: {
@@ -762,6 +764,35 @@ export const fileIcons: FileIconAssignments = {
 		langs: [
 			"angular",
 		]
+	},
+	liquid: {
+		exts: [
+			"liquid",
+		],
+		langs: [
+			"liquid",
+		]
+	},
+	liquid_css: {
+		exts: [
+			"css.liquid",
+		],
+	},
+	liquid_scss: {
+		exts: [
+			"scss.liquid",
+			"sass.liquid",
+		],
+	},
+	liquid_js: {
+		exts: [
+			"js.liquid",
+		],
+	},
+	liquid_ts: {
+		exts: [
+			"ts.liquid",
+		],
 	},
 	xhtml: {
 		exts: [

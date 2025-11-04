@@ -1,8 +1,8 @@
-import { FileIconNameCombo } from './fileIconNameCombo'
+import { FileIconNameCombo } from './fileIconNameCombo';
 
 export interface FileIcon {
-	langs?: string[]
-	exts?: string[]
-	names?: string[]
-	nameCombos?: FileIconNameCombo[]
+	langs?: string[];
+	exts?: string[];
+	names?: string[];
+	nameCombos?: FileIconNameCombo[];
 }

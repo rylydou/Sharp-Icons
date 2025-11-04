@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.2.11]
+- Add Shopify Liquid icon
+
 ## [1.2.10]
 - Add icon for Makefiles
 

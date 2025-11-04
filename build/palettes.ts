@@ -1,7 +1,7 @@
-import { Palette } from './models'
+import { Palette } from './models';
 
 interface PaletteList {
-	[key: string]: Palette
+	[key: string]: Palette;
 }
 
 export const palettes: PaletteList = {
@@ -53,4 +53,4 @@ export const palettes: PaletteList = {
 		displayName: "Zughy",
 		colors: ['#e6482e', '#f47e1b', '#f4b41b', '#b6d53c', '#28ccdf', '#bf5af2', '#827094', '#4f546b'],
 	},
-}
+};

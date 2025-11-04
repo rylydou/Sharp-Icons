@@ -1,7 +1,7 @@
 {
 	"name": "sharp-icons",
 	"displayName": "Sharp Icons",
-	"version": "1.2.10",
+	"version": "1.2.11",
 	"preview": false,
 	"publisher": "CiberTurtle",
 	"description": "Sharp looking icons for vscode",
@@ -164,15 +164,19 @@
 	},
 	"scripts": {
 		"build": "bun ./build",
-		"package": "npm run build && mkdir -p bin && vsce package -o bin",
-		"release": "npm run build && vsce publish"
+		"pack": "npm run build && mkdir -p bin && vsce package -o bin/sharp-icons.vsix",
+		"publish-all": "npm run build && bun run publish-ms && bun run publish-oss",
+		"publish-ms": "vsce publish",
+		"publish-oss": "ovsx publish",
+		"dogfood": "vsce pack -o bin/sharp-icons.vsix && code --install-extension bin/sharp-icons.vsix --force"
 	},
 	"devDependencies": {
-		"@types/node": "22.5.4",
+		"@types/node": "^24.5.2",
 		"@types/sharp": "^0.32.0",
-		"@vscode/vsce": "3.1.0",
-		"sharp": "0.33.5",
-		"typescript": "5.6.2",
+		"@vscode/vsce": "^3.6.2",
+		"ovsx": "^0.10.6",
+		"sharp": "^0.34.4",
+		"typescript": "^5.9.2",
 		"xmlbuilder2": "^3.1.1"
 	}
 }
